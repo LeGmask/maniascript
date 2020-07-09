@@ -1,20 +1,9 @@
 var class_c_sm_player =
 [
     [ "ESpawnStatus", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572", [
-      [ "NotSpawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572afdb8d9db709ebd03639ef95c91c86804", null ],
-      [ "Spawning", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a76af0a192f2f99db3a0b3ba885b49c2e", null ],
-      [ "Spawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a1fe76816124d624b2de4be93c028af16", null ],
-      [ "NotSpawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572afdb8d9db709ebd03639ef95c91c86804", null ],
-      [ "Spawning", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a76af0a192f2f99db3a0b3ba885b49c2e", null ],
-      [ "Spawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a1fe76816124d624b2de4be93c028af16", null ]
-    ] ],
-    [ "ESpawnStatus", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572", [
-      [ "NotSpawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572afdb8d9db709ebd03639ef95c91c86804", null ],
-      [ "Spawning", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a76af0a192f2f99db3a0b3ba885b49c2e", null ],
-      [ "Spawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a1fe76816124d624b2de4be93c028af16", null ],
-      [ "NotSpawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572afdb8d9db709ebd03639ef95c91c86804", null ],
-      [ "Spawning", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a76af0a192f2f99db3a0b3ba885b49c2e", null ],
-      [ "Spawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a1fe76816124d624b2de4be93c028af16", null ]
+      [ "NotSpawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a962f013359f06aee11d8c2cab109432e", null ],
+      [ "Spawning", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a0721d269a08095d1b603a95e363f8579", null ],
+      [ "Spawned", "class_c_sm_player.html#a19a6c5239caaeb8a818b8c5129aec572a29b890f5ee7f0eea00dd51d3d333d7d3", null ]
     ] ],
     [ "AccelCoef", "class_c_sm_player.html#a49d9483a37d302402d4c4a87045b0e5f", null ],
     [ "AdherenceCoef", "class_c_sm_player.html#a3ce03eee70d3c877533c610bf2ae312e", null ],
@@ -91,11 +80,11 @@ var class_c_sm_player =
     [ "IsUnderground", "class_c_sm_player.html#a5a5058fca87496f8a636959cae049d33", null ],
     [ "JumpPower", "class_c_sm_player.html#aef342861e44dba1ca7c801f2eb60eac3", null ],
     [ "LapStartTime", "class_c_sm_player.html#aec3975f66e28344fc345343c53a3e8f6", null ],
-    [ "LapWaypointTimes", "class_c_sm_player.html#a780e79b98182bd31b94ffb838132b644", null ],
+    [ "LapWaypointTimes", "class_c_sm_player.html#ab67a99f0f725f47a634e4a2a3e9ac6b0", null ],
     [ "NbActiveAttractors", "class_c_sm_player.html#a3f4a47b7d7c0c589d6fc6be18b69ff01", null ],
-    [ "Objects", "class_c_sm_player.html#ac58abb2d6586641d64181b4229393cab", null ],
+    [ "Objects", "class_c_sm_player.html#a8dbb1a4da14f5916d10d9187869e67d8", null ],
     [ "Position", "class_c_sm_player.html#abf16213ca2be42af83a6e3e72fc4aecd", null ],
-    [ "RaceWaypointTimes", "class_c_sm_player.html#a56bc9772afe83844fd022d10fecc692b", null ],
+    [ "RaceWaypointTimes", "class_c_sm_player.html#aad5b6264e50b23ddf9ab431f5d8ed4d3", null ],
     [ "Score", "class_c_sm_player.html#a5628e8815a14e2dc4c4249792f6fa378", null ],
     [ "SkiddingDistance", "class_c_sm_player.html#a01409581cae58b0d2a293106c8e01097", null ],
     [ "SkiddingDuration", "class_c_sm_player.html#af7eff66c2a2c19d24e09d100cf1bb5d8", null ],

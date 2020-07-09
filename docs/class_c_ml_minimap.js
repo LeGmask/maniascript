@@ -1,8 +1,6 @@
 var class_c_ml_minimap =
 [
     [ "Fog_ClearDisk", "class_c_ml_minimap.html#a5e9b2c6625198ea78bf930e554839327", null ],
-    [ "Fog_ClearDisk", "class_c_ml_minimap.html#a5e9b2c6625198ea78bf930e554839327", null ],
-    [ "Fog_SetAll", "class_c_ml_minimap.html#a25e62389be8cd7131622a47e717d47d4", null ],
     [ "Fog_SetAll", "class_c_ml_minimap.html#a25e62389be8cd7131622a47e717d47d4", null ],
     [ "DisableAutoUnderground", "class_c_ml_minimap.html#a5d123249e112f1acfac35cda95acef2b", null ],
     [ "MapPosition", "class_c_ml_minimap.html#a7f05d7a1744527fa90f0a71dafb9797e", null ],

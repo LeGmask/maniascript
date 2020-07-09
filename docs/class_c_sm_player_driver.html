@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('class_c_sm_player_driver.html',''); in
 <p>API for ShootMania bots.  
  <a href="class_c_sm_player_driver.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="2020__07__02_8h_source.html">2020_07_02.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="2020__07__07_8h_source.html">2020_07_07.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CSmPlayerDriver:</div>
 <div class="dyncontent">
@@ -111,183 +111,51 @@ Inheritance diagram for CSmPlayerDriver:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:a2b28594f6fba179985301cf5a287d1b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9">ESmDriverBehaviour</a> { <br />
 &#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7">Turret</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33">Scripted</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532">IA</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9ab465e58f199916a04202ea1f642c69d4">Turret</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a2c13fad7f7bf4669459efefb67f6c5df">Scripted</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a812a1763c3b6ed05b8d847d05e88a25e">IA</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f">Patrol</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6">Escape</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee">Saunter</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3">Orbit</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a7b9f8b958f3634df28a0032a47f6c9ea">Patrol</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a23a3353df594ab8269db76664470aeb0">Escape</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9af4d472c75f58b6bf835f58890ed36095">Saunter</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9af45c52947bf3c4812a3920c8a17679e4">Orbit</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e">Follow</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7">Turret</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33">Scripted</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532">IA</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f">Patrol</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6">Escape</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee">Saunter</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3">Orbit</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e">Follow</a>
+&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a74fcd19c969ab2cac49bdd5e1b498192">Follow</a>
 <br />
  }</td></tr>
 <tr class="separator:a2b28594f6fba179985301cf5a287d1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89716ec2d35400ba49fda9139afd36d8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8">ESmDriverPathState</a> { <br />
 &#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b">None</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7">Computing</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c">Simple</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a74d56d8e1d255c5e9476710f44d9648e">None</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8aaaf21a3af2a296893bf5e5bab126d1dd">Computing</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a3ed89d9b8f73043bd56d181c0979590f">Simple</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff">Full</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16">Incomplete</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0">InFlock</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b">None</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7">Computing</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c">Simple</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff">Full</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16">Incomplete</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0">InFlock</a>
+&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a8b940b04b8a14da7b7cdef34acbdc0c4">Full</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a3e86b2f63429fd3e87701f5a928d71f4">Incomplete</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ac1e40a2f4ebca36665eefbc4ec1bd5e9">InFlock</a>
 <br />
  }</td></tr>
 <tr class="separator:a89716ec2d35400ba49fda9139afd36d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26255970b29467d7055cdd75775be990"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990">ESmDriverPatrolMode</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618">OneTrip</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77">BackAndForth</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4">Loop</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618">OneTrip</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77">BackAndForth</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4">Loop</a>
-<br />
+<tr class="memitem:a26255970b29467d7055cdd75775be990"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990">ESmDriverPatrolMode</a> { <a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a001e6fa6589903c7c611f515a5a080ee">OneTrip</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a69eba12372772e3782acd15299d8462b">BackAndForth</a>, 
+<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a9f60433fbed206829d089f19ecc4afbd">Loop</a>
  }</td></tr>
 <tr class="separator:a26255970b29467d7055cdd75775be990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1c6d70786ad39e3d5c25a22b39d0b84"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84">ESmAttackFilter</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093">All</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414">AllPlayers</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada">AllBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986">AllOpposite</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a139e7cae7edf761983e7df71fb43d37a">All</a>, 
+<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a6d5651f46b9c588e02beefde224448ab">AllPlayers</a>, 
+<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a14e2e4741d452edfac7f161f783caf07">AllBots</a>, 
+<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84af4ae10518496eab0884300066cdee307">AllOpposite</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e">OppositePlayers</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921">OppositeBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a">Nobody</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093">All</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414">AllPlayers</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada">AllBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986">AllOpposite</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e">OppositePlayers</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921">OppositeBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a">Nobody</a>
-<br />
- }</td></tr>
-<tr class="separator:ab1c6d70786ad39e3d5c25a22b39d0b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b28594f6fba179985301cf5a287d1b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9">ESmDriverBehaviour</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7">Turret</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33">Scripted</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532">IA</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f">Patrol</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6">Escape</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee">Saunter</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3">Orbit</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e">Follow</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7">Turret</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33">Scripted</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532">IA</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f">Patrol</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6">Escape</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee">Saunter</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3">Orbit</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e">Follow</a>
-<br />
- }</td></tr>
-<tr class="separator:a2b28594f6fba179985301cf5a287d1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89716ec2d35400ba49fda9139afd36d8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8">ESmDriverPathState</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b">None</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7">Computing</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c">Simple</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff">Full</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16">Incomplete</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0">InFlock</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e">Static</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b">None</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7">Computing</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c">Simple</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff">Full</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16">Incomplete</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0">InFlock</a>
-<br />
- }</td></tr>
-<tr class="separator:a89716ec2d35400ba49fda9139afd36d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26255970b29467d7055cdd75775be990"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990">ESmDriverPatrolMode</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618">OneTrip</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77">BackAndForth</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4">Loop</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618">OneTrip</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77">BackAndForth</a>, 
-<a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4">Loop</a>
-<br />
- }</td></tr>
-<tr class="separator:a26255970b29467d7055cdd75775be990"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1c6d70786ad39e3d5c25a22b39d0b84"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84">ESmAttackFilter</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093">All</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414">AllPlayers</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada">AllBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986">AllOpposite</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e">OppositePlayers</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921">OppositeBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a">Nobody</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093">All</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414">AllPlayers</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada">AllBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986">AllOpposite</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e">OppositePlayers</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921">OppositeBots</a>, 
-<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a">Nobody</a>
+&#160;&#160;<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a394a02281d45c7a7310a8b804f37ecca">OppositePlayers</a>, 
+<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a13a25d34e2ab51fbbc449b409d5562f5">OppositeBots</a>, 
+<a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84ad73307983553780b78f4486124233186">Nobody</a>
 <br />
  }</td></tr>
 <tr class="separator:ab1c6d70786ad39e3d5c25a22b39d0b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5501eebf06efdfbbc68e0a221209071a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a5501eebf06efdfbbc68e0a221209071a">Scripted_Move</a> (<a class="el" href="struct_vec3.html">Vec3</a> Goal)</td></tr>
-<tr class="separator:a5501eebf06efdfbbc68e0a221209071a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01a8a9930b2dafd3678e9ffb959c4470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a01a8a9930b2dafd3678e9ffb959c4470">Scripted_MoveDelta</a> (<a class="el" href="struct_vec3.html">Vec3</a> Delta)</td></tr>
-<tr class="separator:a01a8a9930b2dafd3678e9ffb959c4470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88fdf0478a658c5cc4e9466528247edd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a88fdf0478a658c5cc4e9466528247edd">Scripted_MoveAndAim</a> (<a class="el" href="struct_vec3.html">Vec3</a> Goal)</td></tr>
-<tr class="separator:a88fdf0478a658c5cc4e9466528247edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af110ad1337d875900854bfab041b202b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#af110ad1337d875900854bfab041b202b">Scripted_MoveDeltaAndAim</a> (<a class="el" href="struct_vec3.html">Vec3</a> Delta)</td></tr>
-<tr class="separator:af110ad1337d875900854bfab041b202b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a232f58dadea58ba35cb6db09bea864d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a232f58dadea58ba35cb6db09bea864d2">Scripted_Aim</a> (<a class="el" href="struct_vec3.html">Vec3</a> Goal)</td></tr>
-<tr class="separator:a232f58dadea58ba35cb6db09bea864d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bbea00a7832c3ac4d2df68ecd0bd369"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a7bbea00a7832c3ac4d2df68ecd0bd369">Scripted_AimDelta</a> (<a class="el" href="struct_real.html">Real</a> DeltaYaw, <a class="el" href="struct_real.html">Real</a> DeltaPitch)</td></tr>
-<tr class="separator:a7bbea00a7832c3ac4d2df68ecd0bd369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77f9380270b56b666ad783fff383e22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#ad77f9380270b56b666ad783fff383e22">Scripted_RequestAction</a> ()</td></tr>
-<tr class="separator:ad77f9380270b56b666ad783fff383e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fa76b1b6900a5cb212af938766fcd47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a4fa76b1b6900a5cb212af938766fcd47">Scripted_RequestGunTrigger</a> ()</td></tr>
-<tr class="separator:a4fa76b1b6900a5cb212af938766fcd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67ef6ba0275be854461480826624aadf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a67ef6ba0275be854461480826624aadf">Scripted_RequestInput</a> (<a class="el" href="class_c_sm_mode.html#a0db40aa4cad21ff7acfb15363031b302">CSmMode::EActionInput</a> Input)</td></tr>
-<tr class="separator:a67ef6ba0275be854461480826624aadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5501eebf06efdfbbc68e0a221209071a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a5501eebf06efdfbbc68e0a221209071a">Scripted_Move</a> (<a class="el" href="struct_vec3.html">Vec3</a> Goal)</td></tr>
 <tr class="separator:a5501eebf06efdfbbc68e0a221209071a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a8a9930b2dafd3678e9ffb959c4470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a01a8a9930b2dafd3678e9ffb959c4470">Scripted_MoveDelta</a> (<a class="el" href="struct_vec3.html">Vec3</a> Delta)</td></tr>
@@ -383,8 +251,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa6160365c6e9c644f4f8d78edd8bba4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6354735bb4ea41626bd4816ac8d05468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_sm_player.html">CSmPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a6354735bb4ea41626bd4816ac8d05468">ForcedTarget</a></td></tr>
 <tr class="separator:a6354735bb4ea41626bd4816ac8d05468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c8383e0939590daee76e13564d5aab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_sm_player.html">CSmPlayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a4c8383e0939590daee76e13564d5aab3">TargetsToAvoid</a></td></tr>
-<tr class="separator:a4c8383e0939590daee76e13564d5aab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad8e845339d9350711f6f4feba2fd8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_sm_player.html">CSmPlayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#afad8e845339d9350711f6f4feba2fd8e">TargetsToAvoid</a></td></tr>
+<tr class="separator:afad8e845339d9350711f6f4feba2fd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae57127c0d6a9541f308d9fdfe15e9f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#ae57127c0d6a9541f308d9fdfe15e9f9b">PredictJump</a></td></tr>
 <tr class="separator:ae57127c0d6a9541f308d9fdfe15e9f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae784a4a009ca6a41231b3695e66d2eca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#ae784a4a009ca6a41231b3695e66d2eca">UsePathFinding</a></td></tr>
@@ -399,8 +267,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9e1f0e45c2394dda8f56c58332eb2596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab32489bf5e075b71ffc79b97b235340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#aab32489bf5e075b71ffc79b97b235340">LostTargetChaseDuration</a></td></tr>
 <tr class="separator:aab32489bf5e075b71ffc79b97b235340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73255cdb36aac16d4fa1852f9e0f8090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_sm_player_driver.html">CSmPlayerDriver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a73255cdb36aac16d4fa1852f9e0f8090">FlockPartners</a></td></tr>
-<tr class="separator:a73255cdb36aac16d4fa1852f9e0f8090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ff0c0f0f0483efdcd2640da23c3e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_sm_player_driver.html">CSmPlayerDriver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a61ff0c0f0f0483efdcd2640da23c3e08">FlockPartners</a></td></tr>
+<tr class="separator:a61ff0c0f0f0483efdcd2640da23c3e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5092ff4210ae27f022619b6236ee0fa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#a5092ff4210ae27f022619b6236ee0fa3">FlockRadius</a></td></tr>
 <tr class="separator:a5092ff4210ae27f022619b6236ee0fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7222320b6ced3cb8ab205f1c3277ae9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_player_driver.html#ae7222320b6ced3cb8ab205f1c3277ae9">FlockFov</a></td></tr>
@@ -419,7 +287,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>API for ShootMania bots. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ab1c6d70786ad39e3d5c25a22b39d0b84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c6d70786ad39e3d5c25a22b39d0b84">&#9670;&nbsp;</a></span>ESmAttackFilter <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c6d70786ad39e3d5c25a22b39d0b84">&#9670;&nbsp;</a></span>ESmAttackFilter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,56 +298,19 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093"></a>All&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414"></a>AllPlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada"></a>AllBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986"></a>AllOpposite&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e"></a>OppositePlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921"></a>OppositeBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a"></a>Nobody&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093"></a>All&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414"></a>AllPlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada"></a>AllBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986"></a>AllOpposite&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e"></a>OppositePlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921"></a>OppositeBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a"></a>Nobody&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ab1c6d70786ad39e3d5c25a22b39d0b84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c6d70786ad39e3d5c25a22b39d0b84">&#9670;&nbsp;</a></span>ESmAttackFilter <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84">CSmPlayerDriver::ESmAttackFilter</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093"></a>All&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414"></a>AllPlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada"></a>AllBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986"></a>AllOpposite&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e"></a>OppositePlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921"></a>OppositeBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a"></a>Nobody&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84adf059a680e78cae79301796c2edec093"></a>All&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a44ded0a0c7326fada5c7379846916414"></a>AllPlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a870598bab4be324d603fc9897524eada"></a>AllBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a77a2fe0837fc1d0e4033c905c173b986"></a>AllOpposite&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a73c3b31f386d18174b675cf72644ff7e"></a>OppositePlayers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84aa0d4615d2c68d5dfabfca079d8e78921"></a>OppositeBots&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a003ccaa787cfaf3680e6bf324ecf701a"></a>Nobody&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a139e7cae7edf761983e7df71fb43d37a"></a>All&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a6d5651f46b9c588e02beefde224448ab"></a>AllPlayers&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a14e2e4741d452edfac7f161f783caf07"></a>AllBots&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84af4ae10518496eab0884300066cdee307"></a>AllOpposite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a394a02281d45c7a7310a8b804f37ecca"></a>OppositePlayers&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84a13a25d34e2ab51fbbc449b409d5562f5"></a>OppositeBots&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1c6d70786ad39e3d5c25a22b39d0b84ad73307983553780b78f4486124233186"></a>Nobody&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <a id="a2b28594f6fba179985301cf5a287d1b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b28594f6fba179985301cf5a287d1b9">&#9670;&nbsp;</a></span>ESmDriverBehaviour <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b28594f6fba179985301cf5a287d1b9">&#9670;&nbsp;</a></span>ESmDriverBehaviour</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -491,63 +322,20 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7"></a>Turret&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33"></a>Scripted&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532"></a>IA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f"></a>Patrol&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6"></a>Escape&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee"></a>Saunter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3"></a>Orbit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e"></a>Follow&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7"></a>Turret&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33"></a>Scripted&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532"></a>IA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f"></a>Patrol&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6"></a>Escape&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee"></a>Saunter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3"></a>Orbit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e"></a>Follow&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a2b28594f6fba179985301cf5a287d1b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b28594f6fba179985301cf5a287d1b9">&#9670;&nbsp;</a></span>ESmDriverBehaviour <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_player_driver.html#a2b28594f6fba179985301cf5a287d1b9">CSmPlayerDriver::ESmDriverBehaviour</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7"></a>Turret&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33"></a>Scripted&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532"></a>IA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f"></a>Patrol&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6"></a>Escape&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee"></a>Saunter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3"></a>Orbit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e"></a>Follow&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a94780de3cc18e6350fad89a081e4c7c7"></a>Turret&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9aac8afc1a1b7856a027b98ebb6a427a33"></a>Scripted&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a521a3998317b69c1075539151b1bf532"></a>IA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a93af60f07ce30720574cba8904c3c85f"></a>Patrol&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a6db36f5be5911f15969d0a94694522d6"></a>Escape&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a914ed2bd2399bc86c369d91d80ee83ee"></a>Saunter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a1f5a43b1e0b295f378f5863b88e004d3"></a>Orbit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9ab472cc095c13c55492482d7dfbd1560e"></a>Follow&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9ab465e58f199916a04202ea1f642c69d4"></a>Turret&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a2c13fad7f7bf4669459efefb67f6c5df"></a>Scripted&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a812a1763c3b6ed05b8d847d05e88a25e"></a>IA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a7b9f8b958f3634df28a0032a47f6c9ea"></a>Patrol&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a23a3353df594ab8269db76664470aeb0"></a>Escape&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9af4d472c75f58b6bf835f58890ed36095"></a>Saunter&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9af45c52947bf3c4812a3920c8a17679e4"></a>Orbit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b28594f6fba179985301cf5a287d1b9a74fcd19c969ab2cac49bdd5e1b498192"></a>Follow&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <a id="a89716ec2d35400ba49fda9139afd36d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89716ec2d35400ba49fda9139afd36d8">&#9670;&nbsp;</a></span>ESmDriverPathState <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a89716ec2d35400ba49fda9139afd36d8">&#9670;&nbsp;</a></span>ESmDriverPathState</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,55 +347,18 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7"></a>Computing&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16"></a>Incomplete&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0"></a>InFlock&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7"></a>Computing&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16"></a>Incomplete&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0"></a>InFlock&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a89716ec2d35400ba49fda9139afd36d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89716ec2d35400ba49fda9139afd36d8">&#9670;&nbsp;</a></span>ESmDriverPathState <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_player_driver.html#a89716ec2d35400ba49fda9139afd36d8">CSmPlayerDriver::ESmDriverPathState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7"></a>Computing&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16"></a>Incomplete&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0"></a>InFlock&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a5738f1c746062b50fbd5444bc71ee32e"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a87093b70d8fc8499ec2273378121399b"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ac2be48621334d63b62c2f92cde55cae7"></a>Computing&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a0e741467133d90774ad9c2bb9a80846c"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a2601460ea8d01df4726f729f991942ff"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad030883a150dda01f9585a5ea0c7ce16"></a>Incomplete&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ad8681b038b0349192be39810da3aabe0"></a>InFlock&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a74d56d8e1d255c5e9476710f44d9648e"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8aaaf21a3af2a296893bf5e5bab126d1dd"></a>Computing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a3ed89d9b8f73043bd56d181c0979590f"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a8b940b04b8a14da7b7cdef34acbdc0c4"></a>Full&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8a3e86b2f63429fd3e87701f5a928d71f4"></a>Incomplete&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89716ec2d35400ba49fda9139afd36d8ac1e40a2f4ebca36665eefbc4ec1bd5e9"></a>InFlock&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <a id="a26255970b29467d7055cdd75775be990"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26255970b29467d7055cdd75775be990">&#9670;&nbsp;</a></span>ESmDriverPatrolMode <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26255970b29467d7055cdd75775be990">&#9670;&nbsp;</a></span>ESmDriverPatrolMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -618,59 +369,16 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618"></a>OneTrip&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77"></a>BackAndForth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4"></a>Loop&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618"></a>OneTrip&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77"></a>BackAndForth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4"></a>Loop&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a26255970b29467d7055cdd75775be990"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26255970b29467d7055cdd75775be990">&#9670;&nbsp;</a></span>ESmDriverPatrolMode <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_player_driver.html#a26255970b29467d7055cdd75775be990">CSmPlayerDriver::ESmDriverPatrolMode</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618"></a>OneTrip&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77"></a>BackAndForth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4"></a>Loop&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990ad4f460c3072b5723817248e7d7f4f618"></a>OneTrip&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a158e8edf8649c9e0aa8273461abdaa77"></a>BackAndForth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a288eaaaf8a2792c6dd58c95e0966f7d4"></a>Loop&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a001e6fa6589903c7c611f515a5a080ee"></a>OneTrip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a69eba12372772e3782acd15299d8462b"></a>BackAndForth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a26255970b29467d7055cdd75775be990a9f60433fbed206829d089f19ecc4afbd"></a>Loop&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a232f58dadea58ba35cb6db09bea864d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a232f58dadea58ba35cb6db09bea864d2">&#9670;&nbsp;</a></span>Scripted_Aim() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_Aim </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_vec3.html">Vec3</a>&#160;</td>
-          <td class="paramname"><em>Goal</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a232f58dadea58ba35cb6db09bea864d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a232f58dadea58ba35cb6db09bea864d2">&#9670;&nbsp;</a></span>Scripted_Aim() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a232f58dadea58ba35cb6db09bea864d2">&#9670;&nbsp;</a></span>Scripted_Aim()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -688,35 +396,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7bbea00a7832c3ac4d2df68ecd0bd369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bbea00a7832c3ac4d2df68ecd0bd369">&#9670;&nbsp;</a></span>Scripted_AimDelta() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_AimDelta </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_real.html">Real</a>&#160;</td>
-          <td class="paramname"><em>DeltaYaw</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_real.html">Real</a>&#160;</td>
-          <td class="paramname"><em>DeltaPitch</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7bbea00a7832c3ac4d2df68ecd0bd369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bbea00a7832c3ac4d2df68ecd0bd369">&#9670;&nbsp;</a></span>Scripted_AimDelta() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbea00a7832c3ac4d2df68ecd0bd369">&#9670;&nbsp;</a></span>Scripted_AimDelta()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -744,25 +424,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5501eebf06efdfbbc68e0a221209071a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5501eebf06efdfbbc68e0a221209071a">&#9670;&nbsp;</a></span>Scripted_Move() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_Move </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_vec3.html">Vec3</a>&#160;</td>
-          <td class="paramname"><em>Goal</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5501eebf06efdfbbc68e0a221209071a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5501eebf06efdfbbc68e0a221209071a">&#9670;&nbsp;</a></span>Scripted_Move() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5501eebf06efdfbbc68e0a221209071a">&#9670;&nbsp;</a></span>Scripted_Move()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -780,25 +442,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a88fdf0478a658c5cc4e9466528247edd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88fdf0478a658c5cc4e9466528247edd">&#9670;&nbsp;</a></span>Scripted_MoveAndAim() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_MoveAndAim </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_vec3.html">Vec3</a>&#160;</td>
-          <td class="paramname"><em>Goal</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a88fdf0478a658c5cc4e9466528247edd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88fdf0478a658c5cc4e9466528247edd">&#9670;&nbsp;</a></span>Scripted_MoveAndAim() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a88fdf0478a658c5cc4e9466528247edd">&#9670;&nbsp;</a></span>Scripted_MoveAndAim()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,25 +460,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a01a8a9930b2dafd3678e9ffb959c4470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01a8a9930b2dafd3678e9ffb959c4470">&#9670;&nbsp;</a></span>Scripted_MoveDelta() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_MoveDelta </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_vec3.html">Vec3</a>&#160;</td>
-          <td class="paramname"><em>Delta</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a01a8a9930b2dafd3678e9ffb959c4470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01a8a9930b2dafd3678e9ffb959c4470">&#9670;&nbsp;</a></span>Scripted_MoveDelta() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a8a9930b2dafd3678e9ffb959c4470">&#9670;&nbsp;</a></span>Scripted_MoveDelta()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -852,25 +478,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af110ad1337d875900854bfab041b202b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af110ad1337d875900854bfab041b202b">&#9670;&nbsp;</a></span>Scripted_MoveDeltaAndAim() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_MoveDeltaAndAim </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_vec3.html">Vec3</a>&#160;</td>
-          <td class="paramname"><em>Delta</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af110ad1337d875900854bfab041b202b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af110ad1337d875900854bfab041b202b">&#9670;&nbsp;</a></span>Scripted_MoveDeltaAndAim() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af110ad1337d875900854bfab041b202b">&#9670;&nbsp;</a></span>Scripted_MoveDeltaAndAim()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -888,25 +496,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad77f9380270b56b666ad783fff383e22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad77f9380270b56b666ad783fff383e22">&#9670;&nbsp;</a></span>Scripted_RequestAction() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_RequestAction </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Same as Scripted_RequestInput(CSmMode::EActionInput::Movement). </p>
-
-</div>
-</div>
-<a id="ad77f9380270b56b666ad783fff383e22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad77f9380270b56b666ad783fff383e22">&#9670;&nbsp;</a></span>Scripted_RequestAction() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad77f9380270b56b666ad783fff383e22">&#9670;&nbsp;</a></span>Scripted_RequestAction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -924,25 +514,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a4fa76b1b6900a5cb212af938766fcd47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fa76b1b6900a5cb212af938766fcd47">&#9670;&nbsp;</a></span>Scripted_RequestGunTrigger() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_RequestGunTrigger </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Same as Scripted_RequestInput(CSmMode::EActionInput::Weapon). This has no effect when ForcedTarget is not Null. </p>
-
-</div>
-</div>
-<a id="a4fa76b1b6900a5cb212af938766fcd47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fa76b1b6900a5cb212af938766fcd47">&#9670;&nbsp;</a></span>Scripted_RequestGunTrigger() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa76b1b6900a5cb212af938766fcd47">&#9670;&nbsp;</a></span>Scripted_RequestGunTrigger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -960,25 +532,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a67ef6ba0275be854461480826624aadf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67ef6ba0275be854461480826624aadf">&#9670;&nbsp;</a></span>Scripted_RequestInput() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_void.html">Void</a> CSmPlayerDriver::Scripted_RequestInput </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_c_sm_mode.html#a0db40aa4cad21ff7acfb15363031b302">CSmMode::EActionInput</a>&#160;</td>
-          <td class="paramname"><em>Input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a67ef6ba0275be854461480826624aadf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67ef6ba0275be854461480826624aadf">&#9670;&nbsp;</a></span>Scripted_RequestInput() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ef6ba0275be854461480826624aadf">&#9670;&nbsp;</a></span>Scripted_RequestInput()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1168,14 +722,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a73255cdb36aac16d4fa1852f9e0f8090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73255cdb36aac16d4fa1852f9e0f8090">&#9670;&nbsp;</a></span>FlockPartners</h2>
+<a id="a61ff0c0f0f0483efdcd2640da23c3e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ff0c0f0f0483efdcd2640da23c3e08">&#9670;&nbsp;</a></span>FlockPartners</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_sm_player_driver.html">CSmPlayerDriver</a> &gt; CSmPlayerDriver::FlockPartners</td>
+          <td class="memname"><a class="el" href="struct_array.html">Array</a>&lt;<a class="el" href="class_c_sm_player_driver.html">CSmPlayerDriver</a>&gt; CSmPlayerDriver::FlockPartners</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1666,14 +1220,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c8383e0939590daee76e13564d5aab3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c8383e0939590daee76e13564d5aab3">&#9670;&nbsp;</a></span>TargetsToAvoid</h2>
+<a id="afad8e845339d9350711f6f4feba2fd8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afad8e845339d9350711f6f4feba2fd8e">&#9670;&nbsp;</a></span>TargetsToAvoid</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_sm_player.html">CSmPlayer</a> &gt; CSmPlayerDriver::TargetsToAvoid</td>
+          <td class="memname"><a class="el" href="struct_array.html">Array</a>&lt;<a class="el" href="class_c_sm_player.html">CSmPlayer</a>&gt; CSmPlayerDriver::TargetsToAvoid</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1724,8 +1278,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>Source/<a class="el" href="2020__07__02_8h_source.html">2020_07_02.h</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>Source/<a class="el" href="2020__07__07_8h_source.html">2020_07_07.h</a></li>
 </ul>
 </div><!-- contents -->

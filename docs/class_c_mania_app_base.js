@@ -1,4 +1,4 @@
 var class_c_mania_app_base =
 [
-    [ "PendingEvents", "class_c_mania_app_base.html#a90769d6ca43d4c0ccc0e0a97bf8eea36", null ]
+    [ "PendingEvents", "class_c_mania_app_base.html#ad5967cc43ad2604c42b45bd45eea6972", null ]
 ];

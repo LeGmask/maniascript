@@ -1,70 +1,24 @@
 var class_c_u_i_config_marker =
 [
     [ "EAnchorType", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36", [
-      [ "Invalid", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a0dcf68304ea0767140d0f7ad59b2f212", null ],
-      [ "Position", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac1de3d3a86f7c7f04a23bc695d28ee55", null ],
-      [ "Player", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ae5dfefcf1b4f694e87a2681ff8273651", null ],
-      [ "Entity", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac6753cce7f4f7c3445473f8b8681393c", null ],
-      [ "Landmark", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a6910cc77ce1de5a475ce501a861c48c1", null ],
-      [ "Invalid", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a0dcf68304ea0767140d0f7ad59b2f212", null ],
-      [ "Position", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac1de3d3a86f7c7f04a23bc695d28ee55", null ],
-      [ "Player", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ae5dfefcf1b4f694e87a2681ff8273651", null ],
-      [ "Entity", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac6753cce7f4f7c3445473f8b8681393c", null ],
-      [ "Landmark", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a6910cc77ce1de5a475ce501a861c48c1", null ],
-      [ "GhostInstance", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a7509ed8554d961b9e7e7f5ac7761b0bd", null ]
-    ] ],
-    [ "EAnchorType", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36", [
-      [ "Invalid", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a0dcf68304ea0767140d0f7ad59b2f212", null ],
-      [ "Position", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac1de3d3a86f7c7f04a23bc695d28ee55", null ],
-      [ "Player", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ae5dfefcf1b4f694e87a2681ff8273651", null ],
-      [ "Entity", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac6753cce7f4f7c3445473f8b8681393c", null ],
-      [ "Landmark", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a6910cc77ce1de5a475ce501a861c48c1", null ],
-      [ "Invalid", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a0dcf68304ea0767140d0f7ad59b2f212", null ],
-      [ "Position", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac1de3d3a86f7c7f04a23bc695d28ee55", null ],
-      [ "Player", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ae5dfefcf1b4f694e87a2681ff8273651", null ],
-      [ "Entity", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36ac6753cce7f4f7c3445473f8b8681393c", null ],
-      [ "Landmark", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a6910cc77ce1de5a475ce501a861c48c1", null ],
+      [ "Invalid", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36afc2f69e217e6128d79d344743cb89d70", null ],
+      [ "Position", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a59362bdd3239bb48159b11adbe275a5a", null ],
+      [ "Player", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a6dcae69fb76786e61ee7ab412440ddd2", null ],
+      [ "Entity", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a45a435b9c86d27e4bd0d754b82776918", null ],
+      [ "Landmark", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a10c8c343d4c97f392f28c72e5792a52e", null ],
       [ "GhostInstance", "class_c_u_i_config_marker.html#aa3e080a5a3c3171cedc7f039f8f6ea36a7509ed8554d961b9e7e7f5ac7761b0bd", null ]
     ] ],
     [ "EHudVisibility", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02b", [
       [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
       [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrustum", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba794b79ae376a7381658f857d3ad8c574", null ],
-      [ "WhenVisible", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba2778df5dcfd3cdc7117b8fa24f5716d2", null ],
-      [ "WhenInMiddleOfScreen", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02badaebacf0c6dfa6ab7d8b49de30d0c058", null ],
-      [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
-      [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrustum", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba794b79ae376a7381658f857d3ad8c574", null ],
-      [ "WhenVisible", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba2778df5dcfd3cdc7117b8fa24f5716d2", null ],
-      [ "WhenInMiddleOfScreen", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02badaebacf0c6dfa6ab7d8b49de30d0c058", null ]
-    ] ],
-    [ "EHudVisibility", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02b", [
-      [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
-      [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrustum", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba794b79ae376a7381658f857d3ad8c574", null ],
-      [ "WhenVisible", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba2778df5dcfd3cdc7117b8fa24f5716d2", null ],
-      [ "WhenInMiddleOfScreen", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02badaebacf0c6dfa6ab7d8b49de30d0c058", null ],
-      [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
-      [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrustum", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba794b79ae376a7381658f857d3ad8c574", null ],
-      [ "WhenVisible", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba2778df5dcfd3cdc7117b8fa24f5716d2", null ],
-      [ "WhenInMiddleOfScreen", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02badaebacf0c6dfa6ab7d8b49de30d0c058", null ]
+      [ "WhenInFrustum", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac85f2e026916caec41cb331426091c80", null ],
+      [ "WhenVisible", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba55308ba3dda344b5cca8608df7255543", null ],
+      [ "WhenInMiddleOfScreen", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba52d340a4ed365b42a1595dd500d0d9e3", null ]
     ] ],
     [ "EMiniMapVisibility", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7e", [
       [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
       [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrame", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7ea39adec411001e8bf8201fe28b7cae771", null ],
-      [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
-      [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrame", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7ea39adec411001e8bf8201fe28b7cae771", null ]
-    ] ],
-    [ "EMiniMapVisibility", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7e", [
-      [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
-      [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrame", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7ea39adec411001e8bf8201fe28b7cae771", null ],
-      [ "Never", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02ba1fcedb92afe34e76f754c033cb816498", null ],
-      [ "Always", "class_c_u_i_config_marker.html#a8ab656809bea0ea44bdec7c9d6d0e02bac707cdd36529a4e009fd14cd6beda539", null ],
-      [ "WhenInFrame", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7ea39adec411001e8bf8201fe28b7cae771", null ]
+      [ "WhenInFrame", "class_c_u_i_config_marker.html#ab37a0980a4aa1f8acdc46c0f8a76da7eaefe7c350146431b86c155f72db72e300", null ]
     ] ],
     [ "Box", "class_c_u_i_config_marker.html#a5fc822268a269b01603fc91b35100ec7", null ],
     [ "Color", "class_c_u_i_config_marker.html#a342365f3a8c3732040a56b9fe0a008d8", null ],

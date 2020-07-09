@@ -1,26 +1,11 @@
 var class_c_master_server_user =
 [
     [ "EMasterServerConnectionStatus", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45", [
-      [ "NotConnected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45ab6cf32182d52808c5561381099aef3e6", null ],
-      [ "Connecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a63465688e8b84e93b4ec8c80b07f0078", null ],
-      [ "Connected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a34ea636236c9d37dc3f7c8d457d9afd8", null ],
-      [ "Disconnecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a2770e09db46b20d0bb38d0effd4d54d7", null ],
-      [ "NotConnected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45ab6cf32182d52808c5561381099aef3e6", null ],
-      [ "Connecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a63465688e8b84e93b4ec8c80b07f0078", null ],
-      [ "Connected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a34ea636236c9d37dc3f7c8d457d9afd8", null ],
-      [ "Disconnecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a2770e09db46b20d0bb38d0effd4d54d7", null ]
+      [ "NotConnected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a5e2e7c48bb2864b6468a1a7086c67348", null ],
+      [ "Connecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a96f76046f2e98b21637a77973a3a0062", null ],
+      [ "Connected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45aa6f0d6e7c376eb3d7a21be11461ee428", null ],
+      [ "Disconnecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a69395af9d3e42aef78f88a8c6b818e9e", null ]
     ] ],
-    [ "EMasterServerConnectionStatus", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45", [
-      [ "NotConnected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45ab6cf32182d52808c5561381099aef3e6", null ],
-      [ "Connecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a63465688e8b84e93b4ec8c80b07f0078", null ],
-      [ "Connected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a34ea636236c9d37dc3f7c8d457d9afd8", null ],
-      [ "Disconnecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a2770e09db46b20d0bb38d0effd4d54d7", null ],
-      [ "NotConnected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45ab6cf32182d52808c5561381099aef3e6", null ],
-      [ "Connecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a63465688e8b84e93b4ec8c80b07f0078", null ],
-      [ "Connected", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a34ea636236c9d37dc3f7c8d457d9afd8", null ],
-      [ "Disconnecting", "class_c_master_server_user.html#ab3d3534a9fcc5afeea62b4e1091b4b45a2770e09db46b20d0bb38d0effd4d54d7", null ]
-    ] ],
-    [ "GetZone", "class_c_master_server_user.html#ac4858c87eeb2277ba680e343fe7ecc6c", null ],
     [ "GetZone", "class_c_master_server_user.html#ac4858c87eeb2277ba680e343fe7ecc6c", null ],
     [ "ConnectionStatus", "class_c_master_server_user.html#aa503601437f4d5424e9e0cdb66ac0d63", null ],
     [ "DisplayName", "class_c_master_server_user.html#a9bd67722e06fd575a52c7a1049428a9d", null ],
@@ -32,7 +17,7 @@ var class_c_master_server_user =
     [ "Login", "class_c_master_server_user.html#abf1234a3753094d17dcda3d04d442507", null ],
     [ "MultiInternetPlayTimeLeft", "class_c_master_server_user.html#a658dce447a9f1f2a105ade8500c6b379", null ],
     [ "NeedToChangeZone", "class_c_master_server_user.html#a969fd50534cd6d5a9f0736259fadbf99", null ],
-    [ "UbiServicesProfileNews", "class_c_master_server_user.html#a15d27bb8dea1495fa2b905e5bea332f2", null ],
-    [ "UbiServicesSpaceNews", "class_c_master_server_user.html#a9f291a02014efee4d8c6c96be1e45269", null ],
+    [ "UbiServicesProfileNews", "class_c_master_server_user.html#a2454f7335dcc184f7f5a4b21e55d67c2", null ],
+    [ "UbiServicesSpaceNews", "class_c_master_server_user.html#a7140b906bbc95d9c2dde06b7c170a37c", null ],
     [ "ZoneLevelCount", "class_c_master_server_user.html#a4ce57c872ff9b449d08537368bfb0d49", null ]
 ];

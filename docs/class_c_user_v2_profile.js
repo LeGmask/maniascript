@@ -1,70 +1,25 @@
 var class_c_user_v2_profile =
 [
     [ "ECustomPlayerModels", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7c", [
-      [ "All", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7cafb6342e73ddc1236bdcb386db07ea1c4", null ],
-      [ "OnlyTextures", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca747ca960dbc2c7261db937fd0d9c4b72", null ],
-      [ "None", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca8a21f4bae5c8708c3104741dd27b3bf0", null ],
-      [ "All", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7cafb6342e73ddc1236bdcb386db07ea1c4", null ],
-      [ "OnlyTextures", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca747ca960dbc2c7261db937fd0d9c4b72", null ],
-      [ "None", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca8a21f4bae5c8708c3104741dd27b3bf0", null ]
-    ] ],
-    [ "ECustomPlayerModels", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7c", [
-      [ "All", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7cafb6342e73ddc1236bdcb386db07ea1c4", null ],
-      [ "OnlyTextures", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca747ca960dbc2c7261db937fd0d9c4b72", null ],
-      [ "None", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca8a21f4bae5c8708c3104741dd27b3bf0", null ],
-      [ "All", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7cafb6342e73ddc1236bdcb386db07ea1c4", null ],
-      [ "OnlyTextures", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca747ca960dbc2c7261db937fd0d9c4b72", null ],
-      [ "None", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca8a21f4bae5c8708c3104741dd27b3bf0", null ]
+      [ "All", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca803238c8392e6df377a4dbf919577d3b", null ],
+      [ "OnlyTextures", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca0a6484c998f6e04f982db5417c3ea2f2", null ],
+      [ "None", "class_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca5e8601f15b7b22ae9dd514637595c58b", null ]
     ] ],
     [ "EInputMouseReleaseKey", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7a", [
-      [ "LeftAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaaa44b3e4aa3448f02260c54655023f48", null ],
-      [ "RightAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaf7641badc95e78d32533181c0634527e", null ],
-      [ "LeftCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaa6e7661cfcb184901f726448257dafc1", null ],
-      [ "RightCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aae758dc9519badde6098ae8ee0c8a49a4", null ],
-      [ "LeftAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaaa44b3e4aa3448f02260c54655023f48", null ],
-      [ "RightAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaf7641badc95e78d32533181c0634527e", null ],
-      [ "LeftCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaa6e7661cfcb184901f726448257dafc1", null ],
-      [ "RightCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aae758dc9519badde6098ae8ee0c8a49a4", null ]
-    ] ],
-    [ "EInputMouseReleaseKey", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7a", [
-      [ "LeftAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaaa44b3e4aa3448f02260c54655023f48", null ],
-      [ "RightAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaf7641badc95e78d32533181c0634527e", null ],
-      [ "LeftCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaa6e7661cfcb184901f726448257dafc1", null ],
-      [ "RightCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aae758dc9519badde6098ae8ee0c8a49a4", null ],
-      [ "LeftAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaaa44b3e4aa3448f02260c54655023f48", null ],
-      [ "RightAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaf7641badc95e78d32533181c0634527e", null ],
-      [ "LeftCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaa6e7661cfcb184901f726448257dafc1", null ],
-      [ "RightCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aae758dc9519badde6098ae8ee0c8a49a4", null ]
+      [ "LeftAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aaab048c84e1ac77bb78faeef49f13c62d", null ],
+      [ "RightAlt", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aa9732eaae308320474118348590cbe6c7", null ],
+      [ "LeftCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aafb36d146069f410e6f8a20d08a893e40", null ],
+      [ "RightCtrl", "class_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aae0060b5492b04732c103764dd18b4297", null ]
     ] ],
     [ "EMapEditorMode", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fc", [
-      [ "Ask", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fcac232c27a95fa748a9c46a760cbda7cc1", null ],
-      [ "Advanced", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fca85bd44a6bbd0259c8b8bfb93a761634f", null ],
-      [ "Ask", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fcac232c27a95fa748a9c46a760cbda7cc1", null ],
-      [ "Advanced", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fca85bd44a6bbd0259c8b8bfb93a761634f", null ]
-    ] ],
-    [ "EMapEditorMode", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fc", [
-      [ "Ask", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fcac232c27a95fa748a9c46a760cbda7cc1", null ],
-      [ "Advanced", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fca85bd44a6bbd0259c8b8bfb93a761634f", null ],
-      [ "Ask", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fcac232c27a95fa748a9c46a760cbda7cc1", null ],
-      [ "Advanced", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fca85bd44a6bbd0259c8b8bfb93a761634f", null ]
+      [ "Ask", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fcadc009baf3a078888537fd7747c4a5e36", null ],
+      [ "Advanced", "class_c_user_v2_profile.html#a505a7fd2b8127d7ae3cd5e12459ca6fcaaf93ec10bcb752f949640066eececa5f", null ]
     ] ],
     [ "EPlayerVisibility", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72", [
-      [ "Hidden", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a6dcdbd9efc128253b94ca98e01f4df6b", null ],
-      [ "Ghost", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a37b61b8c87b49663c5975db173f5350c", null ],
-      [ "Opaque", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72aefc34ff6fc9ef1232ffe465143fa599e", null ],
-      [ "Hidden", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a6dcdbd9efc128253b94ca98e01f4df6b", null ],
-      [ "Ghost", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a37b61b8c87b49663c5975db173f5350c", null ],
-      [ "Opaque", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72aefc34ff6fc9ef1232ffe465143fa599e", null ]
+      [ "Hidden", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72afe36daf1e346c23eaef2e2b7623c37d6", null ],
+      [ "Ghost", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a8e7a80d6532c9fd88560f4a2ee22d8ba", null ],
+      [ "Opaque", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72af05d5400fafff46be42e7c666da33e16", null ]
     ] ],
-    [ "EPlayerVisibility", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72", [
-      [ "Hidden", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a6dcdbd9efc128253b94ca98e01f4df6b", null ],
-      [ "Ghost", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a37b61b8c87b49663c5975db173f5350c", null ],
-      [ "Opaque", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72aefc34ff6fc9ef1232ffe465143fa599e", null ],
-      [ "Hidden", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a6dcdbd9efc128253b94ca98e01f4df6b", null ],
-      [ "Ghost", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72a37b61b8c87b49663c5975db173f5350c", null ],
-      [ "Opaque", "class_c_user_v2_profile.html#ae63f5d8c283e8e542ed9915c3564bc72aefc34ff6fc9ef1232ffe465143fa599e", null ]
-    ] ],
-    [ "Account_ResetChanges", "class_c_user_v2_profile.html#a31e0b153f49a91bbc04e84f7ab0a2325", null ],
     [ "Account_ResetChanges", "class_c_user_v2_profile.html#a31e0b153f49a91bbc04e84f7ab0a2325", null ],
     [ "Account_AcceptNews", "class_c_user_v2_profile.html#a5bd6d5041acb6833ea7d377fc608ad82", null ],
     [ "Account_EMail", "class_c_user_v2_profile.html#a8f4ee588d9d6a82e39b9cf0c3fe042a3", null ],
@@ -93,7 +48,7 @@ var class_c_user_v2_profile =
     [ "Inputs_MouseSensitivityDefault_Raw", "class_c_user_v2_profile.html#ac89895932664df91d4ec124e60494b52", null ],
     [ "Inputs_MouseSensitivityLaser", "class_c_user_v2_profile.html#ac360bb5f9a858a8768eb8ac8b27cb2ee", null ],
     [ "Inputs_MouseSensitivityLaser_Raw", "class_c_user_v2_profile.html#ad867b6fa536b2a010aeafcc397d9f306", null ],
-    [ "Inputs_Vehicles", "class_c_user_v2_profile.html#aa6571a4e331a4733fa4f8bdfedf3761d", null ],
+    [ "Inputs_Vehicles", "class_c_user_v2_profile.html#af9f7b88f6a40f54d863b3358fba8ddfb", null ],
     [ "Interface_AllyEnableCustomColor", "class_c_user_v2_profile.html#aa1cdc797056018be870365d7e523b641", null ],
     [ "Interface_AllyLinearHue", "class_c_user_v2_profile.html#a7ea33ebfd0b9dd3b87b204bbabc36176", null ],
     [ "Interface_BeaconDuration", "class_c_user_v2_profile.html#a3d9235104d0dd65984a8c661c4d3abcc", null ],

@@ -1,8 +1,6 @@
 var class_c_net_ubi_services_news =
 [
     [ "GetLinkInfo", "class_c_net_ubi_services_news.html#aeee76bb1c43659d7cd036fb42369666f", null ],
-    [ "GetLinkInfo", "class_c_net_ubi_services_news.html#aeee76bb1c43659d7cd036fb42369666f", null ],
-    [ "GetPublicationDate", "class_c_net_ubi_services_news.html#a0979aa7549a5e4ab7e6b8de59fbf03b6", null ],
     [ "GetPublicationDate", "class_c_net_ubi_services_news.html#a0979aa7549a5e4ab7e6b8de59fbf03b6", null ],
     [ "Body", "class_c_net_ubi_services_news.html#a680832f15675fd0aecbf0fe70f65fb58", null ],
     [ "DisplayTime", "class_c_net_ubi_services_news.html#aa3d7dcec07e84daa7150e19946b1297b", null ],

@@ -1,26 +1,11 @@
 var class_c_ml_text_edit =
 [
     [ "EControlScriptEditorTextFormat", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0", [
-      [ "Basic", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a19a6231450573bf9901bae2cfa968b30", null ],
-      [ "Script", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a4fa372cc6b9f907f99ec79a1caf9a065", null ],
-      [ "Password", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a860e7957f95e4fc536e83382e5e40ce5", null ],
-      [ "Newpassword", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a5080d5155832f7445aff957dcf55ad76", null ],
-      [ "Basic", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a19a6231450573bf9901bae2cfa968b30", null ],
-      [ "Script", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a4fa372cc6b9f907f99ec79a1caf9a065", null ],
-      [ "Password", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a860e7957f95e4fc536e83382e5e40ce5", null ],
-      [ "Newpassword", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a5080d5155832f7445aff957dcf55ad76", null ]
+      [ "Basic", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a6c30d1f44322b888936ba67a85a9c2f8", null ],
+      [ "Script", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0ac66e220d1c44e0e812f6a55b4bdb8fe1", null ],
+      [ "Password", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0aa9963c1039035cb94fda58e547b6efd7", null ],
+      [ "Newpassword", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a2d69394dec3e51e448aab7cb6b79a0aa", null ]
     ] ],
-    [ "EControlScriptEditorTextFormat", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0", [
-      [ "Basic", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a19a6231450573bf9901bae2cfa968b30", null ],
-      [ "Script", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a4fa372cc6b9f907f99ec79a1caf9a065", null ],
-      [ "Password", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a860e7957f95e4fc536e83382e5e40ce5", null ],
-      [ "Newpassword", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a5080d5155832f7445aff957dcf55ad76", null ],
-      [ "Basic", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a19a6231450573bf9901bae2cfa968b30", null ],
-      [ "Script", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a4fa372cc6b9f907f99ec79a1caf9a065", null ],
-      [ "Password", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a860e7957f95e4fc536e83382e5e40ce5", null ],
-      [ "Newpassword", "class_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a5080d5155832f7445aff957dcf55ad76", null ]
-    ] ],
-    [ "StartEdition", "class_c_ml_text_edit.html#a04df89f1affb33d0c31e7c09d6e56932", null ],
     [ "StartEdition", "class_c_ml_text_edit.html#a04df89f1affb33d0c31e7c09d6e56932", null ],
     [ "AutoNewLine", "class_c_ml_text_edit.html#ab103c9ae5d9800cf636b8e8c72431d7a", null ],
     [ "LineSpacing", "class_c_ml_text_edit.html#acfac2b7adc6791b3dd584690bae2cc15", null ],

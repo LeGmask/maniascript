@@ -267,27 +267,17 @@ var 2020__07__07_8h =
     [ "CBlockModelClip", "class_c_block_model_clip.html", null ],
     [ "EDateFormats", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8", [
       [ "Full", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d", null ],
-      [ "Date", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a7aa1fa6ca670d6964e1f3a91d08599ad", null ],
-      [ "DateShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8ad42f4716061efe80def26d049d812a6b", null ],
-      [ "Time", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a62e0b3cbb42acc247004eb24ed3ba2b6", null ],
-      [ "TimeShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8ad292fd70f0835bd5818066ab9793cb14", null ],
-      [ "Relative", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a337ae78a3dcff30ca538dc4f22e70c5d", null ],
-      [ "RelativeShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a91b6f7ab663a66b4af014369886f2c08", null ],
-      [ "Full", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d", null ],
-      [ "Date", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a7aa1fa6ca670d6964e1f3a91d08599ad", null ],
-      [ "DateShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8ad42f4716061efe80def26d049d812a6b", null ],
-      [ "Time", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a62e0b3cbb42acc247004eb24ed3ba2b6", null ],
-      [ "TimeShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8ad292fd70f0835bd5818066ab9793cb14", null ],
-      [ "Relative", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a337ae78a3dcff30ca538dc4f22e70c5d", null ],
-      [ "RelativeShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a91b6f7ab663a66b4af014369886f2c08", null ]
+      [ "Date", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8ad5b286bd51f81c9f3a94e22fd2ea454a", null ],
+      [ "DateShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8ae98580d1de92f5bdd721b0cd29aabdea", null ],
+      [ "Time", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8aedafb5d851179a36730ea4db4c19e7fb", null ],
+      [ "TimeShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a1e8c8a5cbf3b9b315b17484a1ebb4bcf", null ],
+      [ "Relative", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8a26ce2a7252b9467bdfce39641e4407cc", null ],
+      [ "RelativeShort", "2020__07__07_8h.html#a61bd18cc93cd6fa9cca4e2b66125afe8afb7fc9e36486c354860125684ade6d30", null ]
     ] ],
     [ "EDurationFormats", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863", [
       [ "Full", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d", null ],
-      [ "Abbreviated", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863af3e89ed1c22ce2d5f72eee92179a824d", null ],
-      [ "Chrono", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab6b9479cb27216d355ba8db28c6fa24c", null ],
-      [ "Full", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d", null ],
-      [ "Abbreviated", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863af3e89ed1c22ce2d5f72eee92179a824d", null ],
-      [ "Chrono", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab6b9479cb27216d355ba8db28c6fa24c", null ]
+      [ "Abbreviated", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863abafe98bedafdd809474349897f30c8f9", null ],
+      [ "Chrono", "2020__07__07_8h.html#ab25afd1fe35e44e43a5c27ef9d7ba863aa18795b03128b9986319e966fb570739", null ]
     ] ],
     [ "Abs", "2020__07__07_8h.html#af0db166c5f92d64ce3efa931b96bbb87", null ],
     [ "Abs", "2020__07__07_8h.html#a82671e85b2146fd59dff7d8318763ddf", null ],
@@ -400,8 +390,8 @@ var 2020__07__07_8h =
     [ "Rand", "2020__07__07_8h.html#a38a5db168ce9b1fc2ea144fa65fc1a54", null ],
     [ "Rand", "2020__07__07_8h.html#a889b57d15412780c14dba4127e5b8f33", null ],
     [ "Rand", "2020__07__07_8h.html#a3b44b79fa32ad2a96f191576ce8eb729", null ],
-    [ "RegexFind", "2020__07__07_8h.html#abe4e0b6290c9040b71209227c57f288c", null ],
-    [ "RegexMatch", "2020__07__07_8h.html#aff5ec00c07ce434219beb4ef6462cf5c", null ],
+    [ "RegexFind", "2020__07__07_8h.html#a68d312f63518eba40976a7feefec6c3c", null ],
+    [ "RegexMatch", "2020__07__07_8h.html#aec563633e31a5c68f6bfc6761e097476", null ],
     [ "RegexReplace", "2020__07__07_8h.html#a4fdf7498e8adc6fcd964f16883ee65d7", null ],
     [ "Replace", "2020__07__07_8h.html#ab4d1be88a57ba627dc8f8e5cf6ddf158", null ],
     [ "ReplaceChars", "2020__07__07_8h.html#a73e47db87525a2cbca556001d12c4c34", null ],
@@ -410,7 +400,7 @@ var 2020__07__07_8h =
     [ "RgbToHsv", "2020__07__07_8h.html#a4e9865adab51a6a470f126b0e2928152", null ],
     [ "Sin", "2020__07__07_8h.html#af4ab071b26c049fe170ed021a526973b", null ],
     [ "SmoothStep", "2020__07__07_8h.html#a75c08d703db002ee254ce9e5e537966f", null ],
-    [ "Split", "2020__07__07_8h.html#a055022b1452001faba8318211bf51588", null ],
+    [ "Split", "2020__07__07_8h.html#aa9a304bb6f11580e260b34061bbf8d59", null ],
     [ "Sqrt", "2020__07__07_8h.html#a2bd4b87a898cc3cce512b05cefc4c6c3", null ],
     [ "StartsWith", "2020__07__07_8h.html#a9213f0081d0b66fb03dbb1f389418b19", null ],
     [ "StartsWith", "2020__07__07_8h.html#aa6d3f06afcd0160f5cadba69756eea21", null ],
@@ -435,5 +425,7 @@ var 2020__07__07_8h =
     [ "ToUpperCase", "2020__07__07_8h.html#ac7f7f51832f3b03983ee6df01fade71a", null ],
     [ "Trim", "2020__07__07_8h.html#aee99a14e422de3a68114f658fd164161", null ],
     [ "TruncInteger", "2020__07__07_8h.html#a25c832e4f5998f1d0874473dd63f7dbf", null ],
-    [ "URLEncode", "2020__07__07_8h.html#a2958eb6fb85d049a59b6a01d3a796800", null ]
+    [ "URLEncode", "2020__07__07_8h.html#a2958eb6fb85d049a59b6a01d3a796800", null ],
+    [ "Pi", "2020__07__07_8h.html#a3c4d742f51414a62e98a80004acb814c", null ],
+    [ "Tau", "2020__07__07_8h.html#a80447fa6db2d91e112e477952ff9a5f6", null ]
 ];

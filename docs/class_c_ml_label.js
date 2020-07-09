@@ -1,24 +1,12 @@
 var class_c_ml_label =
 [
     [ "EBlendMode", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1", [
-      [ "Default", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1af2380d4a4976bc3f615de3ec933d0fa3", null ],
-      [ "Add", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1a1458935810bb89e335f47f813975e81e", null ],
-      [ "Default", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1af2380d4a4976bc3f615de3ec933d0fa3", null ],
-      [ "Add", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1a1458935810bb89e335f47f813975e81e", null ]
-    ] ],
-    [ "EBlendMode", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1", [
-      [ "Default", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1af2380d4a4976bc3f615de3ec933d0fa3", null ],
-      [ "Add", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1a1458935810bb89e335f47f813975e81e", null ],
-      [ "Default", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1af2380d4a4976bc3f615de3ec933d0fa3", null ],
-      [ "Add", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1a1458935810bb89e335f47f813975e81e", null ]
+      [ "Default", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1a71405646725117630d20fc54ba3f83f6", null ],
+      [ "Add", "class_c_ml_label.html#a9b00f1af91b3c8d4564061afa22feae1a372cb03e61767522bb99f8a1c344d002", null ]
     ] ],
     [ "ComputeHeight", "class_c_ml_label.html#a32bd47ab9c8960a6215ef0ea4bd26dc7", null ],
-    [ "ComputeHeight", "class_c_ml_label.html#a32bd47ab9c8960a6215ef0ea4bd26dc7", null ],
-    [ "ComputeWidth", "class_c_ml_label.html#a541735e3ee998c13694ea0c2f9418acf", null ],
     [ "ComputeWidth", "class_c_ml_label.html#a541735e3ee998c13694ea0c2f9418acf", null ],
     [ "ComputeWidth", "class_c_ml_label.html#adbd10ca96e0756c8191ef9ba5f33695f", null ],
-    [ "ComputeWidth", "class_c_ml_label.html#adbd10ca96e0756c8191ef9ba5f33695f", null ],
-    [ "SetText", "class_c_ml_label.html#a225f1b63f2fa8a0c2cd69785cbea2f90", null ],
     [ "SetText", "class_c_ml_label.html#a225f1b63f2fa8a0c2cd69785cbea2f90", null ],
     [ "AppendEllipsis", "class_c_ml_label.html#a2ce4d3ea6e5dee8733a40761ed24fce7", null ],
     [ "AutoNewLine", "class_c_ml_label.html#a5e3fb101c80259ac8cdace1d325e4670", null ],

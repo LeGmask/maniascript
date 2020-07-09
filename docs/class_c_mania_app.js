@@ -1,32 +1,16 @@
 var class_c_mania_app =
 [
     [ "ELinkType", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02", [
-      [ "ExternalBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a7b896eb359c343411a2de8549b6ab5ee", null ],
-      [ "ManialinkBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02af0b9ada1dde5fc4028b62caf767f79cc", null ],
-      [ "ExternalBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a7b896eb359c343411a2de8549b6ab5ee", null ],
-      [ "ManialinkBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02af0b9ada1dde5fc4028b62caf767f79cc", null ]
-    ] ],
-    [ "ELinkType", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02", [
-      [ "ExternalBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a7b896eb359c343411a2de8549b6ab5ee", null ],
-      [ "ManialinkBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02af0b9ada1dde5fc4028b62caf767f79cc", null ],
-      [ "ExternalBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a7b896eb359c343411a2de8549b6ab5ee", null ],
-      [ "ManialinkBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02af0b9ada1dde5fc4028b62caf767f79cc", null ]
+      [ "ExternalBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a47ebfc865daf324df63712f8de85e09f", null ],
+      [ "ManialinkBrowser", "class_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a9ad4dcaf39199db4b94aee935068f58e", null ]
     ] ],
     [ "Dbg_DumpDeclareForVariables", "class_c_mania_app.html#a40070306176f129819401999f3c17e20", null ],
-    [ "Dbg_DumpDeclareForVariables", "class_c_mania_app.html#a40070306176f129819401999f3c17e20", null ],
-    [ "Dialog_Message", "class_c_mania_app.html#a1aef18f02e67b8f683d0c80f5131ddff", null ],
     [ "Dialog_Message", "class_c_mania_app.html#a1aef18f02e67b8f683d0c80f5131ddff", null ],
     [ "LayerCustomEvent", "class_c_mania_app.html#a92474ef337259d3837d630fff44fa590", null ],
-    [ "LayerCustomEvent", "class_c_mania_app.html#a92474ef337259d3837d630fff44fa590", null ],
-    [ "OpenFileInExplorer", "class_c_mania_app.html#a8b5047fd43f2073d112e7cedf88b7e42", null ],
     [ "OpenFileInExplorer", "class_c_mania_app.html#a8b5047fd43f2073d112e7cedf88b7e42", null ],
     [ "OpenLink", "class_c_mania_app.html#a1a9f2201ea12587820220cef0949750c", null ],
-    [ "OpenLink", "class_c_mania_app.html#a1a9f2201ea12587820220cef0949750c", null ],
-    [ "UILayerCreate", "class_c_mania_app.html#a26b127747eefe48fb6a6a2205ed72872", null ],
     [ "UILayerCreate", "class_c_mania_app.html#a26b127747eefe48fb6a6a2205ed72872", null ],
     [ "UILayerDestroy", "class_c_mania_app.html#a5e159293e962941ac0b72267a0fc11c7", null ],
-    [ "UILayerDestroy", "class_c_mania_app.html#a5e159293e962941ac0b72267a0fc11c7", null ],
-    [ "UILayerDestroyAll", "class_c_mania_app.html#a52579eba4be836490f1ecd386aafc533", null ],
     [ "UILayerDestroyAll", "class_c_mania_app.html#a52579eba4be836490f1ecd386aafc533", null ],
     [ "Audio", "class_c_mania_app.html#a819eed45c372f8a192180945a185e898", null ],
     [ "DataFileMgr", "class_c_mania_app.html#a5895f1830f01b374b7b572d94765737a", null ],
@@ -43,7 +27,7 @@ var class_c_mania_app =
     [ "ScoreMgr", "class_c_mania_app.html#a3a4940b5a0a492225b596a1055fd8858", null ],
     [ "System", "class_c_mania_app.html#a934031eb35ccedea57086256516dbba9", null ],
     [ "TrackingMgr", "class_c_mania_app.html#a50d0a922bc9c37e479663d85fe6e98f4", null ],
-    [ "UILayers", "class_c_mania_app.html#a0136e2a91cd07e1407c38ce1686bcba5", null ],
+    [ "UILayers", "class_c_mania_app.html#a9e1f811f3a71dd889aa6179f90f3c48e", null ],
     [ "UserMgr", "class_c_mania_app.html#a985b8b1da29846d4a9336c5e8eb0a8ad", null ],
     [ "Video", "class_c_mania_app.html#aed0cd94adc509be91a2a09b95be19577", null ],
     [ "Xml", "class_c_mania_app.html#a24cea1771ac8430de28b1eb41fe00aaf", null ],

@@ -1,6 +1,6 @@
 var class_c_server_info =
 [
-    [ "ChallengeNames", "class_c_server_info.html#a93249199258cc3ddc57316de67375c70", null ],
+    [ "ChallengeNames", "class_c_server_info.html#a391ee5295bd8e4f4307dd74aa3f51a2a", null ],
     [ "Comment", "class_c_server_info.html#a725b047ad715659fe00a4ff0cbab7d69", null ],
     [ "HasBuddies", "class_c_server_info.html#aad4ce4c50db937fd47485facda585199", null ],
     [ "IsFavourite", "class_c_server_info.html#a93529fa9e007b565dae57498e1dd3fa4", null ],
@@ -16,7 +16,7 @@ var class_c_server_info =
     [ "ModeName", "class_c_server_info.html#a1d402b56721431cd32bce4fc533625da", null ],
     [ "NbChallenges", "class_c_server_info.html#ad7164028a1bf44ce43423d50d08d31e4", null ],
     [ "PlayerCount", "class_c_server_info.html#a24a2accc31a69f81cc0db03c23270df0", null ],
-    [ "PlayerNames", "class_c_server_info.html#a2bfa773ba944ccfe5739cffbbb1ad126", null ],
+    [ "PlayerNames", "class_c_server_info.html#aecb8306f530c36fd2179457574adb34e", null ],
     [ "PlayersLevelAvg", "class_c_server_info.html#a95c0505dc416a5e58a2750467723722b", null ],
     [ "PlayersLevelMax", "class_c_server_info.html#a875c777a28409772ca986ee12d85a869", null ],
     [ "PlayersLevelMin", "class_c_server_info.html#a6cd05200f633253b883d1ffa076129ad", null ],

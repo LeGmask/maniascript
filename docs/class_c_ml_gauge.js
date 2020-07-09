@@ -1,8 +1,6 @@
 var class_c_ml_gauge =
 [
     [ "SetClan", "class_c_ml_gauge.html#a1a8f0f149b98f1c27d4cc1a5092cf357", null ],
-    [ "SetClan", "class_c_ml_gauge.html#a1a8f0f149b98f1c27d4cc1a5092cf357", null ],
-    [ "SetRatio", "class_c_ml_gauge.html#a6cf2916747cde312bd398ca8ef21e933", null ],
     [ "SetRatio", "class_c_ml_gauge.html#a6cf2916747cde312bd398ca8ef21e933", null ],
     [ "CenteredBar", "class_c_ml_gauge.html#a9310d14d07de0d803533f0c4fb5604e5", null ],
     [ "Clan", "class_c_ml_gauge.html#a79ae3e0f290fd66ac9c54cf27c229462", null ],

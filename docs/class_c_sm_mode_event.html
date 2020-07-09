@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('class_c_sm_mode_event.html',''); initR
 <p>Event recieved by ShootMania gamemodes.  
  <a href="class_c_sm_mode_event.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="2020__07__02_8h_source.html">2020_07_02.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="2020__07__07_8h_source.html">2020_07_07.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CSmModeEvent:</div>
 <div class="dyncontent">
@@ -111,250 +111,69 @@ Inheritance diagram for CSmModeEvent:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:af6cdee97f33db715807437de6358c2d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3">EType</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749">Unknown</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056">OnShoot</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77">OnHit</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66">OnNearMiss</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a643f4aaf0fed16d3c096af36037d5455">Unknown</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a922335cce5d11a41777f7127d023ae18">OnShoot</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aeeb698c9d8c0a0e75c0eed6b2584230c">OnHit</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a786d3e3c29851b81e837e81788f0b438">OnNearMiss</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a">OnArmorEmpty</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7">OnCapture</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24">OnShotDeny</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d">OnFallDamage</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2030f73dc97b262d05c94781f20287ad">OnArmorEmpty</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a6f2e7710db58a142820ba179cd1d8597">OnCapture</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a0dbda9c1526f3cbb8b3a9b713559cc61">OnShotDeny</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a6e4259dd1753f88337ad7acd74056d8d">OnFallDamage</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d">OnCommand</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5">OnPlayerAdded</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e">OnPlayerRemoved</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2">OnPlayerRequestRespawn</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a002662b9ffc345c2da5b2098ef8db1b4">OnCommand</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a01d0cedeab5f9d1d38f5e9cbea2a56d6">OnPlayerAdded</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a63a3a11aacd8022c21bb79897fc3d675">OnPlayerRemoved</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae77093e5fac67ad660d9c1fc676f429f">OnPlayerRequestRespawn</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b">OnActionCustomEvent</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39">OnActionEvent</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd">OnPlayerTouchesObject</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866">OnPlayerThrowsObject</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a270e75e6b3999e5eef28d93a1054f6c0">OnActionCustomEvent</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a3108ed9b6f372060d7c8782a4945a40a">OnActionEvent</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a7f997a628c1d476933d3132ed35fe85b">OnPlayerTouchesObject</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6">OnPlayerThrowsObject</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1">OnPlayerTriggersSector</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c">OnPlayerTriggersWaypoint</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453">OnPlayerRequestActionChange</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78">OnVehicleArmorEmpty</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f">OnPlayerTriggersSector</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aab8c7ce9e24288211b1dfd73baebc59d">OnPlayerTriggersWaypoint</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca">OnPlayerRequestActionChange</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a50a7de8aa974e3d7280232586ae24688">OnVehicleArmorEmpty</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317">OnVehicleCollision</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e">OnVehicleVsVehicleCollision</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749">Unknown</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056">OnShoot</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77">OnHit</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66">OnNearMiss</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a">OnArmorEmpty</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7">OnCapture</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24">OnShotDeny</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d">OnFallDamage</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d">OnCommand</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5">OnPlayerAdded</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e">OnPlayerRemoved</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2">OnPlayerRequestRespawn</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b">OnActionCustomEvent</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39">OnActionEvent</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd">OnPlayerTouchesObject</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866">OnPlayerThrowsObject</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1">OnPlayerTriggersSector</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c">OnPlayerTriggersWaypoint</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453">OnPlayerRequestActionChange</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78">OnVehicleArmorEmpty</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317">OnVehicleCollision</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e">OnVehicleVsVehicleCollision</a>
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a1a8900e6c7dd8f1bd2e8fd512d40725b">OnVehicleCollision</a>, 
+<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a0d70fa1f18ce94f6b1f9de78b93fb04a">OnVehicleVsVehicleCollision</a>
 <br />
  }</td></tr>
 <tr class="separator:af6cdee97f33db715807437de6358c2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3ca5df8099d630379fbd6f8d6697717"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717">EActionSlot</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31">Slot_A</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418">Slot_B</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7">Slot_C</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd">Slot_D</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a1e45feb31ff94d5c6350195cbf16b007">Slot_A</a>, 
+<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a1c8ae4ee426153d110e6cbfdcb689e91">Slot_B</a>, 
+<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a5fcc52a5c258a3c3f90352ae8f3e5296">Slot_C</a>, 
+<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2bbce93f3739bec8dd52d9c161388bc6">Slot_D</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a">Slot_E</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78">Slot_F</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393">Slot_G</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67">Slot_H</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31">Slot_A</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418">Slot_B</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7">Slot_C</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd">Slot_D</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a">Slot_E</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78">Slot_F</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393">Slot_G</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67">Slot_H</a>
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a01e06a7fb547b40c328780cfe164dc42">Slot_E</a>, 
+<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a4eb62a268f6d63eac8faa131f5395c31">Slot_F</a>, 
+<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a45d93e59d6fb6bce1205b7aa0b6df738">Slot_G</a>, 
+<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717acf658f446a05333ec04025f73eb1c024">Slot_H</a>
 <br />
  }</td></tr>
 <tr class="separator:ae3ca5df8099d630379fbd6f8d6697717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64c617aa1d78e9f5c58b194031224082"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082">EActionInput</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf">Weapon</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158">Secondary</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f">Movement</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536">Activable1</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082abfc2ef3c9032eb1bfe5356634044b4d6">Weapon</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a7b401f0b814e2ab2c342367de6b8fa9d">Secondary</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a187d5c4d5d2176353e263b7b10507012">Movement</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a3d2a70a2df8968e4873337958480924b">Activable1</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a">Activable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00">Activable3</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b">Activable4</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455">Activable5</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a13a861e65fb6ac14476d4c786a17ee53">Activable2</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9cdcb6e6da6f5a2ef22e5406f6305d5d">Activable3</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a3bef74e53802a89a1fcbb7d032a8384d">Activable4</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a1cc9f5bdc99a9b75651083b404582f6c">Activable5</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3">Activable6</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec">Activable7</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70">Activable8</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2">Activable9</a>, 
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a41225a1e691f8fc33ff7a9b4fe81e51d">Activable6</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082aaaf658a31714718fa0270604864d02df">Activable7</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082af71301de5d27ae037a96f4c6e85a399d">Activable8</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082abf64cc68baebcb04e296de357dd535e0">Activable9</a>, 
 <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf">Activable0</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37">Consumable1</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39">Consumable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a">None</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf">Weapon</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158">Secondary</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f">Movement</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536">Activable1</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a">Activable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00">Activable3</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b">Activable4</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455">Activable5</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3">Activable6</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec">Activable7</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70">Activable8</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2">Activable9</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf">Activable0</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37">Consumable1</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39">Consumable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a">None</a>
-<br />
- }</td></tr>
-<tr class="separator:a64c617aa1d78e9f5c58b194031224082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6cdee97f33db715807437de6358c2d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3">EType</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749">Unknown</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056">OnShoot</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77">OnHit</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66">OnNearMiss</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a">OnArmorEmpty</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7">OnCapture</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24">OnShotDeny</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d">OnFallDamage</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d">OnCommand</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5">OnPlayerAdded</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e">OnPlayerRemoved</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2">OnPlayerRequestRespawn</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b">OnActionCustomEvent</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39">OnActionEvent</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd">OnPlayerTouchesObject</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866">OnPlayerThrowsObject</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1">OnPlayerTriggersSector</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c">OnPlayerTriggersWaypoint</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453">OnPlayerRequestActionChange</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78">OnVehicleArmorEmpty</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317">OnVehicleCollision</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e">OnVehicleVsVehicleCollision</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749">Unknown</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056">OnShoot</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77">OnHit</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66">OnNearMiss</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a">OnArmorEmpty</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7">OnCapture</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24">OnShotDeny</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d">OnFallDamage</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d">OnCommand</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5">OnPlayerAdded</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e">OnPlayerRemoved</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2">OnPlayerRequestRespawn</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b">OnActionCustomEvent</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39">OnActionEvent</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd">OnPlayerTouchesObject</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866">OnPlayerThrowsObject</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1">OnPlayerTriggersSector</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c">OnPlayerTriggersWaypoint</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453">OnPlayerRequestActionChange</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78">OnVehicleArmorEmpty</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317">OnVehicleCollision</a>, 
-<a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e">OnVehicleVsVehicleCollision</a>
-<br />
- }</td></tr>
-<tr class="separator:af6cdee97f33db715807437de6358c2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ca5df8099d630379fbd6f8d6697717"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717">EActionSlot</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31">Slot_A</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418">Slot_B</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7">Slot_C</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd">Slot_D</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a">Slot_E</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78">Slot_F</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393">Slot_G</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67">Slot_H</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31">Slot_A</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418">Slot_B</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7">Slot_C</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd">Slot_D</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a">Slot_E</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78">Slot_F</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393">Slot_G</a>, 
-<a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67">Slot_H</a>
-<br />
- }</td></tr>
-<tr class="separator:ae3ca5df8099d630379fbd6f8d6697717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c617aa1d78e9f5c58b194031224082"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082">EActionInput</a> { <br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf">Weapon</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158">Secondary</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f">Movement</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536">Activable1</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a">Activable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00">Activable3</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b">Activable4</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455">Activable5</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3">Activable6</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec">Activable7</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70">Activable8</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2">Activable9</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf">Activable0</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37">Consumable1</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39">Consumable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a">None</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf">Weapon</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158">Secondary</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f">Movement</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536">Activable1</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a">Activable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00">Activable3</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b">Activable4</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455">Activable5</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3">Activable6</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec">Activable7</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70">Activable8</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2">Activable9</a>, 
-<br />
-&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf">Activable0</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37">Consumable1</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39">Consumable2</a>, 
-<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a">None</a>
+&#160;&#160;<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a1b9590de5ae73651a992bafe051fda65">Activable0</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082aff46a3596249e4b7399023ef7d2dd2e0">Consumable1</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ab50770d16f451c440ba7eed82ffca27e">Consumable2</a>, 
+<a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac6a9e09e943b671a080395250f274184">None</a>
 <br />
  }</td></tr>
 <tr class="separator:a64c617aa1d78e9f5c58b194031224082"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -407,8 +226,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae62030a0afce23d2980ab9aa0eb171cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6802b22e8adecef1e8948b9de6ee1f57"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#a6802b22e8adecef1e8948b9de6ee1f57">Param1</a></td></tr>
 <tr class="separator:a6802b22e8adecef1e8948b9de6ee1f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e75cf59052babfdfc783a810ae500f6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="struct_text.html">Text</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#a4e75cf59052babfdfc783a810ae500f6">Param2</a></td></tr>
-<tr class="separator:a4e75cf59052babfdfc783a810ae500f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91c0832ce99045bbbb994d06eb87bf1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="struct_text.html">Text</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#ab91c0832ce99045bbbb994d06eb87bf1">Param2</a></td></tr>
+<tr class="separator:ab91c0832ce99045bbbb994d06eb87bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df9478241e639e34bb4c1efd8e697af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_c_sm_object.html">CSmObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#a8df9478241e639e34bb4c1efd8e697af">Object</a></td></tr>
 <tr class="separator:a8df9478241e639e34bb4c1efd8e697af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1225b486891375a7cdc42177e2468e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_sm_mode_event.html#ad1225b486891375a7cdc42177e2468e5">WaypointTime</a></td></tr>
@@ -476,7 +295,7 @@ Public Attributes</h2></td></tr>
 </ul>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a64c617aa1d78e9f5c58b194031224082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64c617aa1d78e9f5c58b194031224082">&#9670;&nbsp;</a></span>EActionInput <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a64c617aa1d78e9f5c58b194031224082">&#9670;&nbsp;</a></span>EActionInput</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -487,92 +306,28 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158"></a>Secondary&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455"></a>Activable5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3"></a>Activable6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec"></a>Activable7&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70"></a>Activable8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2"></a>Activable9&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf"></a>Activable0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37"></a>Consumable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39"></a>Consumable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158"></a>Secondary&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455"></a>Activable5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3"></a>Activable6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec"></a>Activable7&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70"></a>Activable8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2"></a>Activable9&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf"></a>Activable0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37"></a>Consumable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39"></a>Consumable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a"></a>None&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a64c617aa1d78e9f5c58b194031224082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64c617aa1d78e9f5c58b194031224082">&#9670;&nbsp;</a></span>EActionInput <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082">CSmModeEvent::EActionInput</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158"></a>Secondary&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455"></a>Activable5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3"></a>Activable6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec"></a>Activable7&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70"></a>Activable8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2"></a>Activable9&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf"></a>Activable0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37"></a>Consumable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39"></a>Consumable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a06d0b128ecf94d41b14f599027644bbf"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a128bcb8c467a0ee0e9a658674bf38158"></a>Secondary&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a9ee523898dd999b4b8846785656fe31f"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a374ebecff158ad2ffd715603a8d9b536"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a21c6a076b760a1ee038cb3b2bcdd4a9a"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a367f0e380646fd49c1ef16a3efab3d00"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a266ba59965657c09322c6171ec8f903b"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8344852a2d13319ed56748624038a455"></a>Activable5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082acfe24fb774b8ef0263a905c21e7521a3"></a>Activable6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a7b5b02f8724ad44ec889482c868e3cec"></a>Activable7&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082af9aedf508dcc7c8fc14933f77ae8ce70"></a>Activable8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a8acd6b1e09e6d883451ecb155f0fdcc2"></a>Activable9&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ae616e2371fc94a2738edd00df954eeaf"></a>Activable0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ac9251e2e334f925724a339887621ac37"></a>Consumable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a5276d642a8e9aa71fd01cc51ceef6a39"></a>Consumable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a73aeaf56d99b97d5cc2911e55ea38b6a"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082abfc2ef3c9032eb1bfe5356634044b4d6"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a7b401f0b814e2ab2c342367de6b8fa9d"></a>Secondary&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a187d5c4d5d2176353e263b7b10507012"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a3d2a70a2df8968e4873337958480924b"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a13a861e65fb6ac14476d4c786a17ee53"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a9cdcb6e6da6f5a2ef22e5406f6305d5d"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a3bef74e53802a89a1fcbb7d032a8384d"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a1cc9f5bdc99a9b75651083b404582f6c"></a>Activable5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a41225a1e691f8fc33ff7a9b4fe81e51d"></a>Activable6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082aaaf658a31714718fa0270604864d02df"></a>Activable7&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082af71301de5d27ae037a96f4c6e85a399d"></a>Activable8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082abf64cc68baebcb04e296de357dd535e0"></a>Activable9&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a1b9590de5ae73651a992bafe051fda65"></a>Activable0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082aff46a3596249e4b7399023ef7d2dd2e0"></a>Consumable1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ab50770d16f451c440ba7eed82ffca27e"></a>Consumable2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ac6a9e09e943b671a080395250f274184"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <a id="ae3ca5df8099d630379fbd6f8d6697717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ca5df8099d630379fbd6f8d6697717">&#9670;&nbsp;</a></span>EActionSlot <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ca5df8099d630379fbd6f8d6697717">&#9670;&nbsp;</a></span>EActionSlot</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -583,60 +338,20 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31"></a>Slot_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418"></a>Slot_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7"></a>Slot_C&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd"></a>Slot_D&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a"></a>Slot_E&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78"></a>Slot_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393"></a>Slot_G&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67"></a>Slot_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31"></a>Slot_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418"></a>Slot_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7"></a>Slot_C&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd"></a>Slot_D&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a"></a>Slot_E&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78"></a>Slot_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393"></a>Slot_G&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67"></a>Slot_H&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ae3ca5df8099d630379fbd6f8d6697717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ca5df8099d630379fbd6f8d6697717">&#9670;&nbsp;</a></span>EActionSlot <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717">CSmModeEvent::EActionSlot</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31"></a>Slot_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418"></a>Slot_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7"></a>Slot_C&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd"></a>Slot_D&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a"></a>Slot_E&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78"></a>Slot_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393"></a>Slot_G&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67"></a>Slot_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2fdaffaedd38f79d310e87696958ba31"></a>Slot_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ab49e35ecd857fd059c51702d00ae5418"></a>Slot_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717abbc76c54f4d5e0065220acc68a163ab7"></a>Slot_C&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717ac982854101ecf2c52307bba714cecacd"></a>Slot_D&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2dec6503c4756f676fe16ca73df0677a"></a>Slot_E&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a9fb74deeaaf353ff43cee57558563e78"></a>Slot_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a233ffde198a998795ebbf15c56621393"></a>Slot_G&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2f3388c594e1a9ebe7cf54e69f107c67"></a>Slot_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a1e45feb31ff94d5c6350195cbf16b007"></a>Slot_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a1c8ae4ee426153d110e6cbfdcb689e91"></a>Slot_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a5fcc52a5c258a3c3f90352ae8f3e5296"></a>Slot_C&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a2bbce93f3739bec8dd52d9c161388bc6"></a>Slot_D&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a01e06a7fb547b40c328780cfe164dc42"></a>Slot_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a4eb62a268f6d63eac8faa131f5395c31"></a>Slot_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a45d93e59d6fb6bce1205b7aa0b6df738"></a>Slot_G&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717acf658f446a05333ec04025f73eb1c024"></a>Slot_H&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <a id="af6cdee97f33db715807437de6358c2d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6cdee97f33db715807437de6358c2d3">&#9670;&nbsp;</a></span>EType <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cdee97f33db715807437de6358c2d3">&#9670;&nbsp;</a></span>EType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -647,110 +362,28 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056"></a>OnShoot&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77"></a>OnHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66"></a>OnNearMiss&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a"></a>OnArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7"></a>OnCapture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24"></a>OnShotDeny&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d"></a>OnFallDamage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d"></a>OnCommand&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5"></a>OnPlayerAdded&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e"></a>OnPlayerRemoved&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2"></a>OnPlayerRequestRespawn&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b"></a>OnActionCustomEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39"></a>OnActionEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd"></a>OnPlayerTouchesObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866"></a>OnPlayerThrowsObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c"></a>OnPlayerTriggersWaypoint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453"></a>OnPlayerRequestActionChange&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78"></a>OnVehicleArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317"></a>OnVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e"></a>OnVehicleVsVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056"></a>OnShoot&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77"></a>OnHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66"></a>OnNearMiss&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a"></a>OnArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7"></a>OnCapture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24"></a>OnShotDeny&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d"></a>OnFallDamage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d"></a>OnCommand&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5"></a>OnPlayerAdded&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e"></a>OnPlayerRemoved&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2"></a>OnPlayerRequestRespawn&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b"></a>OnActionCustomEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39"></a>OnActionEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd"></a>OnPlayerTouchesObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866"></a>OnPlayerThrowsObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c"></a>OnPlayerTriggersWaypoint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453"></a>OnPlayerRequestActionChange&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78"></a>OnVehicleArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317"></a>OnVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e"></a>OnVehicleVsVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="af6cdee97f33db715807437de6358c2d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6cdee97f33db715807437de6358c2d3">&#9670;&nbsp;</a></span>EType <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3">CSmModeEvent::EType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056"></a>OnShoot&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77"></a>OnHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66"></a>OnNearMiss&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a"></a>OnArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7"></a>OnCapture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24"></a>OnShotDeny&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d"></a>OnFallDamage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d"></a>OnCommand&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5"></a>OnPlayerAdded&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e"></a>OnPlayerRemoved&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2"></a>OnPlayerRequestRespawn&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b"></a>OnActionCustomEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39"></a>OnActionEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd"></a>OnPlayerTouchesObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866"></a>OnPlayerThrowsObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c"></a>OnPlayerTriggersWaypoint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453"></a>OnPlayerRequestActionChange&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78"></a>OnVehicleArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317"></a>OnVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e"></a>OnVehicleVsVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ad437f4333aa796f369e0d5f46d497749"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3abad75d739a78236f5568fd350930c056"></a>OnShoot&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a5ebe238e3542d56e27d5e61ed346df77"></a>OnHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a63942dd870a9673dae6dae1705762b66"></a>OnNearMiss&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a79e8838f3b3ce02959fd5879d372d02a"></a>OnArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2665a4454f887041bd5f968a660808c7"></a>OnCapture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a623ede35052b4551921ebb51c26f6a24"></a>OnShotDeny&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3afe62821044d39fd6069d48875e96101d"></a>OnFallDamage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a39425bfc90958e1af77805f0bd16ea5d"></a>OnCommand&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a88e4d00e88407fe3f30243dbadb974a5"></a>OnPlayerAdded&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab355c1487b5e4a8654f02e0377e5122e"></a>OnPlayerRemoved&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa25e1d4cf668f58bd2480fd7153e86a2"></a>OnPlayerRequestRespawn&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae5988127b7fa57e4d29f0928e50dfe1b"></a>OnActionCustomEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab698aed1ef55c083ce33e28cb51bbe39"></a>OnActionEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2fadf1e1a21fa8a1da4e3ec7b0f9f3bd"></a>OnPlayerTouchesObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae764ca4745932bf1e11523fc1a828866"></a>OnPlayerThrowsObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ab87cee360862b63ef977c85ee412b9c1"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a89b1231bdbf124f84edd9d65eaceb39c"></a>OnPlayerTriggersWaypoint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a622d989fdbfc01becb849dbdda536453"></a>OnPlayerRequestActionChange&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a9eb781b7eea93eca222a55788ce9ab78"></a>OnVehicleArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa079a4168498b542633c592a28779317"></a>OnVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ac17a4d4b1402e4cb1f56c815203ccc0e"></a>OnVehicleVsVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a643f4aaf0fed16d3c096af36037d5455"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a922335cce5d11a41777f7127d023ae18"></a>OnShoot&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aeeb698c9d8c0a0e75c0eed6b2584230c"></a>OnHit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a786d3e3c29851b81e837e81788f0b438"></a>OnNearMiss&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a2030f73dc97b262d05c94781f20287ad"></a>OnArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a6f2e7710db58a142820ba179cd1d8597"></a>OnCapture&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a0dbda9c1526f3cbb8b3a9b713559cc61"></a>OnShotDeny&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a6e4259dd1753f88337ad7acd74056d8d"></a>OnFallDamage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a002662b9ffc345c2da5b2098ef8db1b4"></a>OnCommand&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a01d0cedeab5f9d1d38f5e9cbea2a56d6"></a>OnPlayerAdded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a63a3a11aacd8022c21bb79897fc3d675"></a>OnPlayerRemoved&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae77093e5fac67ad660d9c1fc676f429f"></a>OnPlayerRequestRespawn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a270e75e6b3999e5eef28d93a1054f6c0"></a>OnActionCustomEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a3108ed9b6f372060d7c8782a4945a40a"></a>OnActionEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a7f997a628c1d476933d3132ed35fe85b"></a>OnPlayerTouchesObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6"></a>OnPlayerThrowsObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aab8c7ce9e24288211b1dfd73baebc59d"></a>OnPlayerTriggersWaypoint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca"></a>OnPlayerRequestActionChange&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a50a7de8aa974e3d7280232586ae24688"></a>OnVehicleArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a1a8900e6c7dd8f1bd2e8fd512d40725b"></a>OnVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a0d70fa1f18ce94f6b1f9de78b93fb04a"></a>OnVehicleVsVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1064,14 +697,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e75cf59052babfdfc783a810ae500f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e75cf59052babfdfc783a810ae500f6">&#9670;&nbsp;</a></span>Param2</h2>
+<a id="ab91c0832ce99045bbbb994d06eb87bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab91c0832ce99045bbbb994d06eb87bf1">&#9670;&nbsp;</a></span>Param2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="struct_text.html">Text</a> &gt; CSmModeEvent::Param2</td>
+          <td class="memname">const <a class="el" href="struct_array.html">Array</a>&lt;<a class="el" href="struct_text.html">Text</a>&gt; CSmModeEvent::Param2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1428,8 +1061,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>Source/<a class="el" href="2020__07__02_8h_source.html">2020_07_02.h</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>Source/<a class="el" href="2020__07__07_8h_source.html">2020_07_07.h</a></li>
 </ul>
 </div><!-- contents -->

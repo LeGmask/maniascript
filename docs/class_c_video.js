@@ -1,26 +1,13 @@
 var class_c_video =
 [
     [ "ETextureFilter", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6a", [
-      [ "Default", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aab4f1313c658a1c9f7b7d56ba6ca6dbfb", null ],
-      [ "Point", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aa95ee50cded708135f61259101a285065", null ],
-      [ "Default", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aab4f1313c658a1c9f7b7d56ba6ca6dbfb", null ],
-      [ "Point", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aa95ee50cded708135f61259101a285065", null ]
-    ] ],
-    [ "ETextureFilter", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6a", [
-      [ "Default", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aab4f1313c658a1c9f7b7d56ba6ca6dbfb", null ],
-      [ "Point", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aa95ee50cded708135f61259101a285065", null ],
-      [ "Default", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aab4f1313c658a1c9f7b7d56ba6ca6dbfb", null ],
-      [ "Point", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aa95ee50cded708135f61259101a285065", null ]
+      [ "Default", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aacde74b4f7b73508dbccda6d5d551f9a5", null ],
+      [ "Point", "class_c_video.html#ab8049352b5d1785f42f9b8251fe66c6aa29f8ac5e77b26b0fcbcd7962ee3b651f", null ]
     ] ],
     [ "BeginProcessing", "class_c_video.html#aa7616d8fb5c182211fb527e65d1ff957", null ],
-    [ "BeginProcessing", "class_c_video.html#aa7616d8fb5c182211fb527e65d1ff957", null ],
-    [ "EndProcessing", "class_c_video.html#a79f8dec8c3c890b3c551ee5c3fcb1e4a", null ],
     [ "EndProcessing", "class_c_video.html#a79f8dec8c3c890b3c551ee5c3fcb1e4a", null ],
     [ "Pause", "class_c_video.html#a2977bc750d632fe582cd25218db6b8ec", null ],
-    [ "Pause", "class_c_video.html#a2977bc750d632fe582cd25218db6b8ec", null ],
     [ "Play", "class_c_video.html#ae62ba2b8394864abdc5116473a99b42d", null ],
-    [ "Play", "class_c_video.html#ae62ba2b8394864abdc5116473a99b42d", null ],
-    [ "Stop", "class_c_video.html#a7f9146430bd837c720c177a6c9365141", null ],
     [ "Stop", "class_c_video.html#a7f9146430bd837c720c177a6c9365141", null ],
     [ "AutoProcessing", "class_c_video.html#acc399d4e501627bea2dc1ece1a36e357", null ],
     [ "DownloadInProgress", "class_c_video.html#a4a10775648289deffee1c2196fa6df3f", null ],

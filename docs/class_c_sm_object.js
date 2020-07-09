@@ -1,34 +1,15 @@
 var class_c_sm_object =
 [
     [ "EStatus", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71", [
-      [ "OnPlayer", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a4349497b8fa4ab7451394772baa8cfe6", null ],
-      [ "OnAnchor", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71af56f427d608125b1673c7b0a179f2bb5", null ],
-      [ "InWorld", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71aa0b924c56681b0231f588f1cde845648", null ],
-      [ "Unspawned", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a3b7a4a291a18d448db1d4792d641666f", null ],
-      [ "OnPlayer", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a4349497b8fa4ab7451394772baa8cfe6", null ],
-      [ "OnAnchor", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71af56f427d608125b1673c7b0a179f2bb5", null ],
-      [ "InWorld", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71aa0b924c56681b0231f588f1cde845648", null ],
-      [ "Unspawned", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a3b7a4a291a18d448db1d4792d641666f", null ]
-    ] ],
-    [ "EStatus", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71", [
-      [ "OnPlayer", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a4349497b8fa4ab7451394772baa8cfe6", null ],
-      [ "OnAnchor", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71af56f427d608125b1673c7b0a179f2bb5", null ],
-      [ "InWorld", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71aa0b924c56681b0231f588f1cde845648", null ],
-      [ "Unspawned", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a3b7a4a291a18d448db1d4792d641666f", null ],
-      [ "OnPlayer", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a4349497b8fa4ab7451394772baa8cfe6", null ],
-      [ "OnAnchor", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71af56f427d608125b1673c7b0a179f2bb5", null ],
-      [ "InWorld", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71aa0b924c56681b0231f588f1cde845648", null ],
-      [ "Unspawned", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a3b7a4a291a18d448db1d4792d641666f", null ]
+      [ "OnPlayer", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a8ae7f2e5af824cae12f0d43d88940dae", null ],
+      [ "OnAnchor", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71aaa94b273badb10b3c449f3018beef4f8", null ],
+      [ "InWorld", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a5ce8b71ab60d64fe6f757aaac1831663", null ],
+      [ "Unspawned", "class_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a74b07042878fbf08370dde7a0404318b", null ]
     ] ],
     [ "SetAnchor", "class_c_sm_object.html#af71c0b3ebd91c4e1c55ccc2d433e749a", null ],
-    [ "SetAnchor", "class_c_sm_object.html#af71c0b3ebd91c4e1c55ccc2d433e749a", null ],
-    [ "SetPlayer", "class_c_sm_object.html#a73f47afbf8b49df6dbcd37ab7ba20656", null ],
     [ "SetPlayer", "class_c_sm_object.html#a73f47afbf8b49df6dbcd37ab7ba20656", null ],
     [ "SetPosition", "class_c_sm_object.html#a2c1adea6518de2b33e6bdd02d0c35234", null ],
-    [ "SetPosition", "class_c_sm_object.html#a2c1adea6518de2b33e6bdd02d0c35234", null ],
     [ "SetPositionAndVel", "class_c_sm_object.html#a769962a0c6a9631745bbf2ff39e60a40", null ],
-    [ "SetPositionAndVel", "class_c_sm_object.html#a769962a0c6a9631745bbf2ff39e60a40", null ],
-    [ "SetUnspawned", "class_c_sm_object.html#ab175cde0c288ad0871720d53fb41b822", null ],
     [ "SetUnspawned", "class_c_sm_object.html#ab175cde0c288ad0871720d53fb41b822", null ],
     [ "AnchorLandmark", "class_c_sm_object.html#a23995d015c9d66713411877caf2829ac", null ],
     [ "MachineState", "class_c_sm_object.html#a79bbf6b1ec11c922b46ba073b9c66dad", null ],

@@ -1,32 +1,12 @@
 var class_c_block_model =
 [
     [ "EWayPointType", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dab", [
-      [ "Start", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba127b8863c1464afe4161f1e2d5a86479", null ],
-      [ "Finish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaf3f82b5d8658ed2d161fa033fc0f8470", null ],
-      [ "Checkpoint", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaa20d009d349be49ffc1b0f645dc6d084", null ],
-      [ "None", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabab4dbced5d51228bccb9b561cad536382", null ],
-      [ "StartFinish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba4035e9ee5d2fa98e739c7c0e8a713b70", null ],
-      [ "Dispenser", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba68c5abc796dc4e9d2950f40dbd2714ff", null ],
-      [ "Start", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba127b8863c1464afe4161f1e2d5a86479", null ],
-      [ "Finish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaf3f82b5d8658ed2d161fa033fc0f8470", null ],
-      [ "Checkpoint", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaa20d009d349be49ffc1b0f645dc6d084", null ],
-      [ "None", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabab4dbced5d51228bccb9b561cad536382", null ],
-      [ "StartFinish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba4035e9ee5d2fa98e739c7c0e8a713b70", null ],
-      [ "Dispenser", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba68c5abc796dc4e9d2950f40dbd2714ff", null ]
-    ] ],
-    [ "EWayPointType", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dab", [
-      [ "Start", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba127b8863c1464afe4161f1e2d5a86479", null ],
-      [ "Finish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaf3f82b5d8658ed2d161fa033fc0f8470", null ],
-      [ "Checkpoint", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaa20d009d349be49ffc1b0f645dc6d084", null ],
-      [ "None", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabab4dbced5d51228bccb9b561cad536382", null ],
-      [ "StartFinish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba4035e9ee5d2fa98e739c7c0e8a713b70", null ],
-      [ "Dispenser", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba68c5abc796dc4e9d2950f40dbd2714ff", null ],
-      [ "Start", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba127b8863c1464afe4161f1e2d5a86479", null ],
-      [ "Finish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaf3f82b5d8658ed2d161fa033fc0f8470", null ],
-      [ "Checkpoint", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaa20d009d349be49ffc1b0f645dc6d084", null ],
-      [ "None", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabab4dbced5d51228bccb9b561cad536382", null ],
-      [ "StartFinish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba4035e9ee5d2fa98e739c7c0e8a713b70", null ],
-      [ "Dispenser", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba68c5abc796dc4e9d2950f40dbd2714ff", null ]
+      [ "Start", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba4bf661841255e646210c30dca2b367f2", null ],
+      [ "Finish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba7214b4465377f1809ef536f0c84dd587", null ],
+      [ "Checkpoint", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba3f671bf982a3f9a257a8b90f83b64de8", null ],
+      [ "None", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba9e77ce956f694953e2a29e78f111ca8d", null ],
+      [ "StartFinish", "class_c_block_model.html#a38143764f437576c59c72aa948fa0dabaea239abefb6fc8f383fd8fb0ffc334ff", null ],
+      [ "Dispenser", "class_c_block_model.html#a38143764f437576c59c72aa948fa0daba1b8dd5eb1cc4a3b52d2cbd8bf3bbbe9d", null ]
     ] ],
     [ "IsClip", "class_c_block_model.html#a72ef81c638b7751406b34a42e13ff5a7", null ],
     [ "IsPodium", "class_c_block_model.html#a31dde04f73cd8f68353877abc258721a", null ],

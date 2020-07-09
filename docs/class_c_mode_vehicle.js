@@ -1,7 +1,6 @@
 var class_c_mode_vehicle =
 [
     [ "SetEngineActivated", "class_c_mode_vehicle.html#a2e1de282f5923a047910d4da4b426807", null ],
-    [ "SetEngineActivated", "class_c_mode_vehicle.html#a2e1de282f5923a047910d4da4b426807", null ],
     [ "AccelCoef", "class_c_mode_vehicle.html#aabf77b6aaa85526b947399d9f6d4912a", null ],
     [ "AccelInput", "class_c_mode_vehicle.html#aa6ca166eae6a8354a14c1e23c4983301", null ],
     [ "Armor", "class_c_mode_vehicle.html#abbdad949381063559acc3f2a8e097fb7", null ],

@@ -1,50 +1,18 @@
 var class_c_system_platform =
 [
     [ "ESystemPlatform", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6", [
-      [ "None", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a966b5435c15709462449b37ca6d6da35", null ],
-      [ "Steam", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6afadafb321a86ba8be5a0a55b566df92f", null ],
-      [ "UPlay", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a42c332bca97f38f7a8d28dd8c64a47f4", null ],
-      [ "PS4", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a09bcda0928ad5e3a916dcdf68a6dbce2", null ],
-      [ "XBoxOne", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6af67446a43c2f7710590f1afcb6d923aa", null ],
-      [ "None", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a966b5435c15709462449b37ca6d6da35", null ],
-      [ "Steam", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6afadafb321a86ba8be5a0a55b566df92f", null ],
-      [ "UPlay", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a42c332bca97f38f7a8d28dd8c64a47f4", null ],
-      [ "PS4", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a09bcda0928ad5e3a916dcdf68a6dbce2", null ],
-      [ "XBoxOne", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6af67446a43c2f7710590f1afcb6d923aa", null ]
-    ] ],
-    [ "ESystemPlatform", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6", [
-      [ "None", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a966b5435c15709462449b37ca6d6da35", null ],
-      [ "Steam", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6afadafb321a86ba8be5a0a55b566df92f", null ],
-      [ "UPlay", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a42c332bca97f38f7a8d28dd8c64a47f4", null ],
-      [ "PS4", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a09bcda0928ad5e3a916dcdf68a6dbce2", null ],
-      [ "XBoxOne", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6af67446a43c2f7710590f1afcb6d923aa", null ],
-      [ "None", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a966b5435c15709462449b37ca6d6da35", null ],
-      [ "Steam", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6afadafb321a86ba8be5a0a55b566df92f", null ],
-      [ "UPlay", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a42c332bca97f38f7a8d28dd8c64a47f4", null ],
-      [ "PS4", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a09bcda0928ad5e3a916dcdf68a6dbce2", null ],
-      [ "XBoxOne", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6af67446a43c2f7710590f1afcb6d923aa", null ]
+      [ "None", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a605ffdb6abc777c1924812fa0bb5741a", null ],
+      [ "Steam", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a2213571ca51ceb89b26e7f94e6f2288d", null ],
+      [ "UPlay", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a31b82ab8f1a32574ca778f7c54169ca1", null ],
+      [ "PS4", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6af4dabd81ca2af8dab014496bd01f4fc1", null ],
+      [ "XBoxOne", "class_c_system_platform.html#a2117c601e3b19eb128c365d505128bf6a1b4bec5c53d7a1dee3c9c1cd8b2f2959", null ]
     ] ],
     [ "ESystemSkuIdentifier", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5", [
-      [ "Unknown", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a6702c62d64b9961ac4f4b62cc9446411", null ],
-      [ "EU", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5ad4884b52d9edb86d59dbe19ddab00cce", null ],
-      [ "US", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a0c71a7e42fed99f1f10a360e22a074c7", null ],
-      [ "JP", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a8c586491943c44db7bba42c2541467f6", null ],
-      [ "Unknown", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a6702c62d64b9961ac4f4b62cc9446411", null ],
-      [ "EU", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5ad4884b52d9edb86d59dbe19ddab00cce", null ],
-      [ "US", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a0c71a7e42fed99f1f10a360e22a074c7", null ],
-      [ "JP", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a8c586491943c44db7bba42c2541467f6", null ]
+      [ "Unknown", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a4abb28caa9407837456740b61c83fc7d", null ],
+      [ "EU", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a984f3faf415bbaa85b000208c7b9bb1b", null ],
+      [ "US", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5acbdc2a851f9b0a79843673c5b4fd217f", null ],
+      [ "JP", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a30fffc3c396b28cf069aa3ae2b907f03", null ]
     ] ],
-    [ "ESystemSkuIdentifier", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5", [
-      [ "Unknown", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a6702c62d64b9961ac4f4b62cc9446411", null ],
-      [ "EU", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5ad4884b52d9edb86d59dbe19ddab00cce", null ],
-      [ "US", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a0c71a7e42fed99f1f10a360e22a074c7", null ],
-      [ "JP", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a8c586491943c44db7bba42c2541467f6", null ],
-      [ "Unknown", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a6702c62d64b9961ac4f4b62cc9446411", null ],
-      [ "EU", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5ad4884b52d9edb86d59dbe19ddab00cce", null ],
-      [ "US", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a0c71a7e42fed99f1f10a360e22a074c7", null ],
-      [ "JP", "class_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a8c586491943c44db7bba42c2541467f6", null ]
-    ] ],
-    [ "ClipboardSet", "class_c_system_platform.html#a60186c9bf2d1097ccc563c963ea8616b", null ],
     [ "ClipboardSet", "class_c_system_platform.html#a60186c9bf2d1097ccc563c963ea8616b", null ],
     [ "CurrentLocalDate", "class_c_system_platform.html#a23d8a30f1e00b3dc0b21b5971301d269", null ],
     [ "CurrentLocalDateText", "class_c_system_platform.html#a4745e3287b1258bc37d526846a34112c", null ],

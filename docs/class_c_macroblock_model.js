@@ -1,7 +1,6 @@
 var class_c_macroblock_model =
 [
     [ "ClearScriptMetadata", "class_c_macroblock_model.html#ad2f8cfce83e0933d7e77804ea45da8a2", null ],
-    [ "ClearScriptMetadata", "class_c_macroblock_model.html#ad2f8cfce83e0933d7e77804ea45da8a2", null ],
     [ "GeneratedBlockModel", "class_c_macroblock_model.html#a196caf0264c0acddf32202f7741e42dc", null ],
     [ "HasCheckpoint", "class_c_macroblock_model.html#ac864bb0fce6791e8694e7ff4f9fa9a57", null ],
     [ "HasFinish", "class_c_macroblock_model.html#a46ebdd4749f3b6d753bbb0a590958423", null ],

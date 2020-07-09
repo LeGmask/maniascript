@@ -1,42 +1,15 @@
 var class_c_editor_plugin_module_event =
 [
-    [ "Type", "class_c_editor_plugin_module_event.html#a5150eea9b5449f23287a366d62acbfb3", [
-      [ "LayerCustomEvent", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a53a90bb106b8edec10c5bf4ef8e672e2", null ],
-      [ "KeyPress", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa3c16e1a86f0e7ed2e6d146af0f69725", null ],
-      [ "MenuNavigation", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a10325fbdae19ed7344361070d76ced42", null ],
-      [ "Exit", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ad772f8098ee0c1c44ddd189ef51074f0", null ],
-      [ "FileNew", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa44c50ba5b20081f81256c1e09e74889", null ],
-      [ "FileOpen", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4adaa7ef0a18f137a2d3c957deba7b2a1d", null ],
-      [ "FileSave", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a50f071e9d2b4d2dd46c39813c73f57de", null ],
-      [ "FileSaveAs", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ae7b5c5d279f4e656633b9f4e01ffaadf", null ],
-      [ "LayerCustomEvent", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a53a90bb106b8edec10c5bf4ef8e672e2", null ],
-      [ "KeyPress", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa3c16e1a86f0e7ed2e6d146af0f69725", null ],
-      [ "MenuNavigation", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a10325fbdae19ed7344361070d76ced42", null ],
-      [ "Exit", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ad772f8098ee0c1c44ddd189ef51074f0", null ],
-      [ "FileNew", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa44c50ba5b20081f81256c1e09e74889", null ],
-      [ "FileOpen", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4adaa7ef0a18f137a2d3c957deba7b2a1d", null ],
-      [ "FileSave", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a50f071e9d2b4d2dd46c39813c73f57de", null ],
-      [ "FileSaveAs", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ae7b5c5d279f4e656633b9f4e01ffaadf", null ]
-    ] ],
     [ "Type", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4", [
-      [ "LayerCustomEvent", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a53a90bb106b8edec10c5bf4ef8e672e2", null ],
-      [ "KeyPress", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa3c16e1a86f0e7ed2e6d146af0f69725", null ],
-      [ "MenuNavigation", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a10325fbdae19ed7344361070d76ced42", null ],
-      [ "Exit", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ad772f8098ee0c1c44ddd189ef51074f0", null ],
-      [ "FileNew", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa44c50ba5b20081f81256c1e09e74889", null ],
-      [ "FileOpen", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4adaa7ef0a18f137a2d3c957deba7b2a1d", null ],
-      [ "FileSave", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a50f071e9d2b4d2dd46c39813c73f57de", null ],
-      [ "FileSaveAs", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ae7b5c5d279f4e656633b9f4e01ffaadf", null ],
-      [ "LayerCustomEvent", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a53a90bb106b8edec10c5bf4ef8e672e2", null ],
-      [ "KeyPress", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa3c16e1a86f0e7ed2e6d146af0f69725", null ],
-      [ "MenuNavigation", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a10325fbdae19ed7344361070d76ced42", null ],
-      [ "Exit", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ad772f8098ee0c1c44ddd189ef51074f0", null ],
-      [ "FileNew", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4aa44c50ba5b20081f81256c1e09e74889", null ],
-      [ "FileOpen", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4adaa7ef0a18f137a2d3c957deba7b2a1d", null ],
-      [ "FileSave", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a50f071e9d2b4d2dd46c39813c73f57de", null ],
-      [ "FileSaveAs", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ae7b5c5d279f4e656633b9f4e01ffaadf", null ]
+      [ "LayerCustomEvent", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a0374f0baaf9b9619bc3f371115b48a70", null ],
+      [ "KeyPress", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a7e0c06f8857ebb96531d9c0622074839", null ],
+      [ "MenuNavigation", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4a06f38f949e893763c91e281e02147afb", null ],
+      [ "Exit", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4af289c863f5a3fd6643a3fe7141d64a88", null ],
+      [ "FileNew", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ab558fe936ff9ca7b313fc9d825517cbc", null ],
+      [ "FileOpen", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ae0e172f46f671c0ba74d37786d4f250a", null ],
+      [ "FileSave", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4ae75eae23bf01041a24b46158bd91a870", null ],
+      [ "FileSaveAs", "class_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4abc3c72cee90ef82a4a85ab17c3521441", null ]
     ] ],
-    [ "Eat", "class_c_editor_plugin_module_event.html#a17b3ddcd02d652c286e2e2ff9a071858", null ],
     [ "Eat", "class_c_editor_plugin_module_event.html#a17b3ddcd02d652c286e2e2ff9a071858", null ],
     [ "Type", "class_c_editor_plugin_module_event.html#a5150eea9b5449f23287a366d62acbfb3", null ]
 ];

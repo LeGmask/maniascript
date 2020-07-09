@@ -1,8 +1,6 @@
 var class_c_audio_source =
 [
     [ "Play", "class_c_audio_source.html#a3a6979f588d9d0b229ee9ec61733194c", null ],
-    [ "Play", "class_c_audio_source.html#a3a6979f588d9d0b229ee9ec61733194c", null ],
-    [ "Stop", "class_c_audio_source.html#a3401cdc2e27ed6cbe960281470a3f869", null ],
     [ "Stop", "class_c_audio_source.html#a3401cdc2e27ed6cbe960281470a3f869", null ],
     [ "DownloadInProgress", "class_c_audio_source.html#a91f4af49ab825f5478d76c68d152a0be", null ],
     [ "FadeDuration", "class_c_audio_source.html#a2db7285c4768bfee75e4607c3f7b04ad", null ],
