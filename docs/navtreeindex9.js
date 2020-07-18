@@ -1,5 +1,10 @@
 var NAVTREEINDEX9 =
 {
+"class_c_map_info.html#abf7241ad24770845e6fca464d867f2b8":[1,0,92,21],
+"class_c_map_info.html#ac32eb81b5bc9d6f2fc23f4894f367b7d":[1,0,92,22],
+"class_c_map_info.html#acf282f1a82e2baac7f5b043329b4ec65":[1,0,92,15],
+"class_c_map_info.html#adf28a4cbd1f9cdf329d26a831726aabf":[1,0,92,24],
+"class_c_map_info.html#ae909b16e8d6a3f68ef6cfea071d93e76":[1,0,92,6],
 "class_c_map_info.html#aed9a0610079dd5ee642e98c284c3c5c7":[1,0,92,17],
 "class_c_map_info.html#afa1488051418d1eedae44d4b6eaf4cc0":[1,0,92,5],
 "class_c_map_info.html#afa4a4d042723c9bbdbf0a9f93ef5c861":[1,0,92,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX9 =
 "class_c_ml_gauge.html#a6cf2916747cde312bd398ca8ef21e933":[1,0,116,1],
 "class_c_ml_gauge.html#a715f43f0fece1036047a3a13eedd2762":[1,0,116,9],
 "class_c_ml_gauge.html#a79ae3e0f290fd66ac9c54cf27c229462":[1,0,116,3],
-"class_c_ml_gauge.html#a8241a555e1d61e5cf1c2e29596629f6b":[1,0,116,5],
-"class_c_ml_gauge.html#a9310d14d07de0d803533f0c4fb5604e5":[1,0,116,2],
-"class_c_ml_gauge.html#aeb102508b1deaa95a66e62a782e46985":[1,0,116,7],
-"class_c_ml_graph.html":[1,0,117],
-"class_c_ml_graph.html#a4c4502c52b21dd7d091e06c2ad823b58":[1,0,117,3],
-"class_c_ml_graph.html#a7b485a89c5f9d111f442c9c6be8c965c":[1,0,117,1]
+"class_c_ml_gauge.html#a8241a555e1d61e5cf1c2e29596629f6b":[1,0,116,5]
 };

@@ -1,5 +1,6 @@
 var class_c_server_info =
 [
+    [ "ChallengeIds", "class_c_server_info.html#a0802d3cfd9337910a389d6ef48bb60ba", null ],
     [ "ChallengeNames", "class_c_server_info.html#a391ee5295bd8e4f4307dd74aa3f51a2a", null ],
     [ "Comment", "class_c_server_info.html#a725b047ad715659fe00a4ff0cbab7d69", null ],
     [ "HasBuddies", "class_c_server_info.html#aad4ce4c50db937fd47485facda585199", null ],

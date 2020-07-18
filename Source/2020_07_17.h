@@ -7427,6 +7427,10 @@ public :
 /*!
 
 */
+			Ident Ghost_AddWaypointSynced(CGhost Ghost,Boolean IsGhostLayer);
+/*!
+
+*/
 			Boolean Ghost_IsReplayOver(Ident GhostInstanceId);
 /*!
 
@@ -14410,6 +14414,10 @@ public :
 /*!
 
 */
+	const	Array<Text> ChallengeIds;
+/*!
+
+*/
 	const	Integer NbChallenges;
 /*!
 
@@ -15758,11 +15766,27 @@ public :
 /*!
 
 */
+	const	Integer DiffWithBestRace;
+/*!
+
+*/
+	const	Boolean DiffWithBestRace_IsValid;
+/*!
+
+*/
 	const	Integer LapWaypointTime;
 /*!
 
 */
 	const	Integer LapWaypointIndex;
+/*!
+
+*/
+	const	Integer DiffWithBestLap;
+/*!
+
+*/
+	const	Boolean DiffWithBestLap_IsValid;
 /*!
 
 */

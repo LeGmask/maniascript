@@ -35,6 +35,10 @@ var class_c_mania_app_playground_event =
       [ "OnPlayerTriggerSpecial", "class_c_mania_app_playground_event.html#ab6defe6d426fff0afd803102fe63b1beab8dcde778473959e836fce63912b09f6", null ],
       [ "OnPlayerTriggerWaypoint", "class_c_mania_app_playground_event.html#ab6defe6d426fff0afd803102fe63b1beaea2e85d2d18f235c3460ee054532532a", null ]
     ] ],
+    [ "DiffWithBestLap", "class_c_mania_app_playground_event.html#a80bf98b95f82f3e5e69eadd41b3a406b", null ],
+    [ "DiffWithBestLap_IsValid", "class_c_mania_app_playground_event.html#a839ece35c495ff6b6a7ac9a87d2a6403", null ],
+    [ "DiffWithBestRace", "class_c_mania_app_playground_event.html#af4349bbe38d85a50ee4fc8e71a841131", null ],
+    [ "DiffWithBestRace_IsValid", "class_c_mania_app_playground_event.html#ad3b9a1114bd47ea301623ed0aae650ee", null ],
     [ "GameplaySpecialType", "class_c_mania_app_playground_event.html#a52d8eb67f99151ff77f8971e1a5650a1", null ],
     [ "GameplayTurboRoulette", "class_c_mania_app_playground_event.html#a2426f7436ef95a8827e66f2171c351c7", null ],
     [ "Ghost", "class_c_mania_app_playground_event.html#a87a26dfc125df06d8de78c65f2928553", null ],
